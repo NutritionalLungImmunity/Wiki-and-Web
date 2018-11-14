@@ -1,6 +1,5 @@
 ---
-title: Aspergillus Simulation Project
-layout: post
+layout: default
 ---
 For more information, see [the project wiki](https://github.com/LungFungalGrowth/LungFungalGrowth.github.io/wiki).
 
