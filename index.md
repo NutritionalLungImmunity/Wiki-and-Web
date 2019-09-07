@@ -2,7 +2,6 @@
 layout: default
 ---
 
-
 The purpose of the work is to develop a multiscale computational model to simulate the invasion of the human lungs by spores of the opportunistic _Aspergillus fumigatus_ fungus. In particular, we explore the role of **nutritional immunity** in clearing  infection, with a focus on iron. This project is currently funded by The National Institutes of Health (see Funding section).
 
 For more information, see [the project wiki](https://github.com/LungFungalGrowth/LungFungalGrowth.github.io/wiki).
