@@ -24,6 +24,7 @@ description: Members of the project, previous and past.
 ## Affiliate Faculty 
 
 * Yogesh Scindia
+
 # Kitware 
 
 * William Schroeder
