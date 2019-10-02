@@ -25,9 +25,9 @@
       <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
         <a href="{{ site.baseurl }}{% link index.md %}" class="btn">Home</a>
-	<a href="{{ site.baseurl }}{% link people/people.md %}" class="btn">Team members</a>
+	<a href="{{ site.baseurl }}{% link people/people.md %}" class="btn">Team Members</a>
 	<a href="{{ site.baseurl }}{% link description/description.md %}" class="btn">    Project Description</a>
-	<a href="{{ site.baseurl }}{% link omics/omics.md %}" class="btn">Omics data</a>
+	<a href="{{ site.baseurl }}{% link omics/omics.md %}" class="btn">Experimental data</a>
 	{% if site.github.is_project_page %}
         <a href="{{ site.github.repository_url }}" class="btn">Visit our Github</a>
       {% endif %}

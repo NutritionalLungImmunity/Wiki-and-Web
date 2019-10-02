@@ -4,9 +4,9 @@ title: Team members
 description: Members of the project, previous and past.
 ---
 
-# Dr. Reinhard Laubenbacher's lab
+# Dr. Reinhard Laubenbacher's Laboratory
 
-## Postdoctoral Associaites
+## Postdoctoral Associates
 * [Luis Sordo Vieira](https://www.jax.org/people/luis-sordo-vieira), The Jackson Laboratory for Genomic Medicine
 * [Henrique De Assis Lopes Ribeiro](https://health.uconn.edu/laubenbacher/research/henrique-de-assis-lopes-ribeiro-phd/), UConn Health
 
@@ -18,7 +18,7 @@ description: Members of the project, previous and past.
 ## Undergraduate students
 * Alex Clonan, University of Connecticut
 
-# Dr. Borna Mehrad's lab
+# Dr. Borna Mehrad's Laboratory
 
 ## Affiliate Faculty 
 
@@ -33,4 +33,5 @@ description: Members of the project, previous and past.
 
 # Previous members
 
-* Dr. Lokendra Poudel
+* Dr. Lokendra Poudel (Laubenbacher)
+* Ligia Flores (Laubenbacher)

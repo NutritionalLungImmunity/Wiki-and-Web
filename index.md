@@ -2,7 +2,7 @@
 layout: default
 ---
 
-The purpose of the work is to develop a multiscale computational model to simulate the invasion of the human lungs by spores of the opportunistic _Aspergillus fumigatus_ fungus. In particular, we explore the role of **nutritional immunity** in clearing  infection, with a focus on iron. This project is currently funded by The National Institutes of Health (see Funding section).
+The purpose of the work is to develop a multiscale computational model to simulate the invasion of the human lungs by spores of the opportunistic fungus _Aspergillus fumigatus_. In particular, we explore the role of **nutritional immunity** in clearing  infection, with a focus on iron. This project is currently funded by The National Institutes of Health and The National Science Foundation of the United States of America (see Funding section).
 
 For more information, see [the project wiki](https://github.com/LungFungalGrowth/LungFungalGrowth.github.io/wiki).
 
@@ -10,7 +10,7 @@ The team includes members from [The Center for Quantitative Medicine at UConn He
 
 
 
-The project is being developed to ensure reproducible science. All data, software tools, and methods will become publicly available as they are developed. As these data and methods are being created by different groups, the wiki and web pages in this repository serve as high-level organizational guide to various resources. These resources include software (simulation and visualization), genomics data, simulation data, associated metadata, experimental lab notebooks, and presentation materials.
+A particular focus of the project is to ensure reproducible science by using container technology. All data, software tools, and methods will become publicly available as they are developed. As these data and methods are being created by different groups, the wiki and web pages in this repository serve as high-level organizational guide to various resources. These resources include software (simulation and visualization), genomics data, simulation data, associated metadata, experimental lab notebooks, and presentation materials.
 
 For questions please contact [Dr. Reinhard Laubenbacher](mailto:laubenbacher@uchc.edu).
 
