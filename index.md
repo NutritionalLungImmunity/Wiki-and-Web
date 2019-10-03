@@ -22,7 +22,7 @@ For questions please contact [Dr. Reinhard Laubenbacher](mailto:laubenbacher@uch
 ## Modular software design
 The major innovation that the modeling design implements is the separation of multiscale processes in    to individual "modules." The concept of a module is best understood through an example. Each module is a unique collection of code packaged in a Docker container with its own computational environment, capable of running independently from all others on a separate machine. All model logic is separated into unique modules and the only way the module interact with each other is via writing data to a shared database (Redis). Therefore, we can have a platform which can work with different programming languages and it will be easy to "plug in" or "unplug" a module as long as the module read and write data in a similar way. For more information, refer to the [Github Wiki](https://github.com/LungFungalGrowth/invasive-aspergillosis/wiki). 
 
-<img src="https://data.computational-biology.org/api/v1/file/5d938b5def2e2603553c56a9/download?contentDisposition=inline" alt='missing' width="1000"     height="500" />
+<img src="https://data.computational-biology.org/api/v1/file/5d960c3eef2e2603553c5777/download?contentDisposition=inline" alt='missing' width="1000"     height="500" />
 
 
 
