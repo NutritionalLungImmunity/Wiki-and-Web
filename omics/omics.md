@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Biological data and analysis pipelines generated as part of this project.
+title: Biological data and analysis pipelines generated as part of this project
 ---
 
 

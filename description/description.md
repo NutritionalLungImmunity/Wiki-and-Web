@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Description of Project.
+title: Description of Project
 ---
 
 ## __Multiscale modeling of the battle over iron in invasive lung infection__  
