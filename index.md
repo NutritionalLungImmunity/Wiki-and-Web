@@ -6,7 +6,7 @@ The purpose of the work is to develop a multiscale computational model to simula
 
 For more information, see [the project wiki](https://github.com/LungFungalGrowth/LungFungalGrowth.github.io/wiki).
 
-The team includes members from [The Center for Quantitative Medicine at UConn Health](https://health.uconn.edu/laubenbacher/), [The Jackson Laboratory for Genomic Medicine](https://www.jax.org/about-us/locations/farmington), [UF Health](https://ufhealth.org/), and [Kitware](https://www.kitware.com/). 
+The team includes members from [The Center for Quantitative Medicine at UConn Health](https://health.uconn.edu/laubenbacher/), [The Jackson Laboratory for Genomic Medicine](https://www.jax.org/about-us/locations/farmington), [UF Health](https://ufhealth.org/), and [Kitware](https://www.kitware.com/).
 
 
 
@@ -20,36 +20,36 @@ For questions please contact [Dr. Reinhard Laubenbacher](mailto:laubenbacher@uch
 </figure>
 
 ## Modular software design
-The major innovation that the modeling design implements is the separation of multiscale processes in    to individual "modules." The concept of a module is best understood through an example. Each module is a unique collection of code packaged in a Docker container with its own computational environment, capable of running independently from all others on a separate machine. All model logic is separated into unique modules and the only way the module interact with each other is via writing data to a shared database (Redis). Therefore, we can have a platform which can work with different programming languages and it will be easy to "plug in" or "unplug" a module as long as the module read and write data in a similar way. For more information, refer to the [Github Wiki](https://github.com/LungFungalGrowth/invasive-aspergillosis/wiki). 
+The major innovation that the modeling design implements is the separation of multiscale processes in    to individual "modules." The concept of a module is best understood through an example. Each module is a unique collection of code packaged in a Docker container with its own computational environment, capable of running independently from all others on a separate machine. All model logic is separated into unique modules and the only way the module interact with each other is via writing data to a shared database (Redis). Therefore, we can have a platform which can work with different programming languages and it will be easy to "plug in" or "unplug" a module as long as the module read and write data in a similar way. For more information, refer to the [Github Wiki](https://github.com/LungFungalGrowth/invasive-aspergillosis/wiki).
 
-<img src="https://data.nutritionallungimmunity.org/api/v1/file/5d960c3eef2e2603553c5777/download?contentDisposition=inline" alt='missing' width="1000"     height="500" />
+<img src="https://data.nutritionallungimmunity.org/api/v1/file/5db9a799ef2e2603553c5950/download?contentDisposition=inline" alt='missing' width="1000"     height="500" />
 
 
 
 ## News
 * Dr. Reinhard Laubenbacher and Ms. Bandita Adhikari present at the [annual meeting of the Society for Mathematical Biology in Montreal](http://www.smb2019.org/).
-* Dr. Reinhard Laubenbacher and Dr. Luis Sordo Vieira developed methods of control of intracellular networks using computational algebra. See the [BiorXiv preprint](https://www.biorxiv.org/content/10.1101/682989v1)!
+* Dr. Reinhard Laubenbacher and Dr. Luis Sordo Vieira developed methods of control of intracellular networks using computational algebra. The manuscript has been accepted for publication in the Bulletin of Mathematical Biology. See the [BiorXiv preprint](https://www.biorxiv.org/content/10.1101/682989v1)!
 ## Team Leads
 <figure>
     <figcaption>Dr. Reinhard Laubenbacher, UConn Health, The Jackson Laboratory</figcaption>
     <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5696/download?contentDisposition=inline" alt='missing' width="120" height="160" />
-    
+
 </figure>
 <figure>
      <figcaption>Dr. Borna Mehrad, UF Health</figcaption>
     <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b2ef2e2603553c5693/download?contentDisposition=inline" alt='missing' width="120" height="180" />
-   
+
 </figure>
 <figure>
     <figcaption>Dr. William Schroeder, Kitware</figcaption>
     <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5699/download?contentDisposition=inline" alt='missing' width="120" height="120" />  
 </figure>
 
-## Funding 
+## Funding
 - [National Instute of Biomedical Imaging and Bioengineering U01EB024501](https://projectreporter.nih.gov/project_info_description.cfm?aid=9567990), Modular design of multiscale models, with an application to the innate immune response to fungal respiratory pathogens.
 - [National Institute of Allergy and Infectious Diseases 1R01AI135128](https://projectreporter.nih.gov/project_info_description.cfm?projectnumber=1R01AI135128-01), Multi scale modeling of the battle our iron in invasive lung infection.
 - [National Science Foundation EAGER #1750183](https://nsf.gov/awardsearch/showAward?AWD_ID=1750183&HistoricalAwards=false), Modular design of multiscale models, with an application to the innate immune response to fungal respiratory pathogens.
 
 ### Contact
 - [Dr. Reinhard Laubenbacher](mailto:laubenbacher@uchc.edu)
-- [Dr. Borna Mehrad](mailto:Borna.Mehrad@medicine.ufl.edu)
+- [Dr. Borna Mehrad](mailto:Millie.Ramos@medicine.ufl.edu)
