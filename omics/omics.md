@@ -11,7 +11,7 @@ title: Biological data and analysis pipelines generated as part of this project
 Monocyte derived dendritic cells from six different human donors (IL-4/GM-CSF differentiated) were exposed to _Aspergillus fumigatus_ conidia with cell:conidia ratio=1:1 for 0, 2, 4, 6, 8 hours. Purity of dendritic cells was confirmed by flow cytometry using CD14-/Cd1a+/HLA+/CD83+.  
 
 ### Data Availability
-All data associated with the monocyte derived dendritic cells lives in the [Dendritic Cell Module collection](https://data.computational-biology.org/#collection/5d69826fef2e2603553c5677) in our Girder Instance. In particular, in the Girder Instance, the following can be found.
+All data associated with the monocyte derived dendritic cells lives in the [Dendritic Cell Module collection](https://data.nutritionallungimmunity.org/#collection/5d69826fef2e2603553c5677) in our Girder Instance. In particular, in the Girder Instance, the following can be found.
 
 #### [FASTQ files](https://data.nutritionallungimmunity.org/#collection/5d69826fef2e2603553c5677/folder/5d70041def2e2603553c567f)
 Contains raw FASTQ files from two different runs on different days. For analysis, samples that correspond to the same donor were merged together.
@@ -32,7 +32,7 @@ Contains R scripts for performing differential expression analysis of DCs expose
 ### Description
 Monocyte derived macrophages from six different human donors (M-CSF differentiated) were exposed to _Aspergillus fumigatus_ conidia with cell:conidia ratio=1:1 for 0, 2, 4, 6, 8 hours. Purity of macrophages was confirmed by flow cytometry using surface markers CD14+/CD68+/CD163+.
 ### Availability:
-All data associated with the monocyte derived macrophage lives in the [Macrophage Module collection](https://data.computational-biology.org/#collection/5d41dcf7ef2e26236e2bb3ef) in our Girder Instance. In particular, in the Girder Instance, the following can be found.
+All data associated with the monocyte derived macrophage lives in the [Macrophage Module collection](https://data.nutritionallungimmunity.org/#collection/5d41dcf7ef2e26236e2bb3ef) in our Girder Instance. In particular, in the Girder Instance, the following can be found.
 
 
 
