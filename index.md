@@ -20,29 +20,41 @@ For questions please contact [Dr. Reinhard Laubenbacher](mailto:laubenbacher@uch
 </figure>
 
 ## Modular software design
-The major innovation that the modeling design implements is the separation of multiscale dynamics and components into individual “modules.” The full set of biological, chemical, and physical behaviors remains encoded within the model but the software architecture is such that each module is a unique collection of code packaged with its own computational environment, capable of running on a separate process. The modules then communicate by mutating a shared state variable that exists within memory. The effect of such structure is to remove any interdependence between modules so that a modeler interested in extending or modifying the model can do so without changing the parts of the model that are outside the scope of the desired changes, For example, the aspergillus module contains code that supports aspergillus data initialization and update, but if an improved or tangential model is created to replace the existing model, only the aspergillus module will need to be edited. In comparison, a more conventional software structure would require the understanding and ability to modify a macrophage module equivalent to avoid breaking the code. Therefore, we can have a robust platform which can work with different programming languages and it will be easy to “plug in” or “unplug” a module as long as the modules read and write data in a similar way. For more information, refer to the Github Wiki.
-<img src="https://data.nutritionallungimmunity.org/api/v1/file/5db9a799ef2e2603553c5950/download?contentDisposition=inline" alt='missing' width="1000"     height="500" />
+The major innovation that the modeling design implements is the separation of multiscale processes in    to individual "modules." The concept of a module is best understood through an example. Each module is a unique collection of code packaged in a Docker container with its own computational environment, capable of running independently from all others on a separate machine. All model logic is separated into unique modules and the only way the module interact with each other is via writing data to a shared database (Redis). Therefore, we can have a platform which can work with different programming languages and it will be easy to "plug in" or "unplug" a module as long as the module read and write data in a similar way. For more information, refer to the [Github Wiki](https://github.com/LungFungalGrowth/invasive-aspergillosis/wiki).
+
+<img src="https://data.nutritionallungimmunity.org/api/v1/file/5d960c3eef2e2603553c5777/download?contentDisposition=inline" alt='missing' width="1000"     height="500" />
 
 
 
 ## News
 * Dr. Reinhard Laubenbacher and Ms. Bandita Adhikari present at the [annual meeting of the Society for Mathematical Biology in Montreal](http://www.smb2019.org/).
-* Dr. Reinhard Laubenbacher and Dr. Luis Sordo Vieira developed methods of control of intracellular networks using computational algebra. The manuscript has been accepted for publication in the Bulletin of Mathematical Biology. See the [BiorXiv preprint](https://www.biorxiv.org/content/10.1101/682989v1)!
+* Dr. Reinhard Laubenbacher and Dr. Luis Sordo Vieira developed methods of control of intracellular networks using computational algebra. See the [BiorXiv preprint](https://www.biorxiv.org/content/10.1101/682989v1)!
 ## Team Leads
 <figure>
-    <figcaption>Dr. Reinhard Laubenbacher, UConn Health, The Jackson Laboratory</figcaption>
-    <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5696/download?contentDisposition=inline" alt='missing' width="120" height="160" />
+    <a href="https://facultydirectory.uchc.edu/profile?profileId=Laubenbacher-Reinhard">
+    <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5696/download?contentDisposition=inline" alt='missing' width="120" height="160" />
 
+    </a>
+    <figcaption>Dr. Reinhard Laubenbacher<br> UConn Health<br> The Jackson Laboratory</figcaption>
 </figure>
 <figure>
-     <figcaption>Dr. Borna Mehrad, UF Health</figcaption>
-    <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b2ef2e2603553c5693/download?contentDisposition=inline" alt='missing' width="120" height="180" />
+    <a href="https://pulmonary.medicine.ufl.edu/about-us/faculty/borna-mehrad-md/">
 
+
+    <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b2ef2e2603553c5693/download?contentDisposition=inline" alt='missing' width="120" height="180" />
+
+    </a>
+
+<figcaption>Dr. Borna Mehrad<br> UF Health</figcaption>
 </figure>
 <figure>
-    <figcaption>Dr. William Schroeder, Kitware</figcaption>
-    <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5699/download?contentDisposition=inline" alt='missing' width="120" height="120" />  
+    <a href="https://www.kitware.com/will-schroeder/">
+    <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5699/download?contentDisposition=inline" alt='missing' width="120" height="120" />
+
+    </a>
+    <figcaption>Dr. William Schroeder<br> Kitware</figcaption>
 </figure>
+
 
 ## Funding
 - [National Instute of Biomedical Imaging and Bioengineering U01EB024501](https://projectreporter.nih.gov/project_info_description.cfm?aid=9567990), Modular design of multiscale models, with an application to the innate immune response to fungal respiratory pathogens.

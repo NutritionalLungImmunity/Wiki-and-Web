@@ -20,16 +20,16 @@ description: Members of the project, previous and past.
 
 # Dr. Borna Mehrad's Laboratory
 
-## Affiliate Faculty 
+## Affiliate Faculty
 
 * Yogesh Scindia
 
-# Kitware 
+# Kitware
 
 * [William Schroeder](https://www.kitware.com/will-schroeder/)
 * [Brian Helba](https://www.kitware.com/brian-helba/)
 * [Michael Grauer](https://www.kitware.com/michael-grauer/)
-* [Jonathan Beezley](https://www.kitware.com/jonathan-beezley/) 
+* [Jonathan Beezley](https://www.kitware.com/jonathan-beezley/)
 
 # Previous members
 
