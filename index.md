@@ -4,7 +4,7 @@ layout: default
 
 The purpose of the work is to develop a multiscale computational model to simulate the invasion of the human lungs by spores of the opportunistic fungus _Aspergillus fumigatus_. In particular, we explore the role of **nutritional immunity** in clearing  infection, with a focus on iron. This project is currently funded by The National Institutes of Health and The National Science Foundation of the United States of America (see Funding section).
 
-For more information, see [the project wiki](https://github.com/LungFungalGrowth/LungFungalGrowth.github.io/wiki).
+For more information, see [the project wiki](https://github.com/nutritionallungimmunity/nutritionallungimmunity.github.io/wiki).
 
 The team includes members from [The Center for Quantitative Medicine at UConn Health](https://health.uconn.edu/laubenbacher/), [The Jackson Laboratory for Genomic Medicine](https://www.jax.org/about-us/locations/farmington), [UF Health](https://ufhealth.org/), and [Kitware](https://www.kitware.com/).
 
@@ -20,9 +20,9 @@ For questions please contact [Dr. Reinhard Laubenbacher](mailto:laubenbacher@uch
 </figure>
 
 ## Modular software design
-The major innovation that the modeling design implements is the separation of multiscale processes in    to individual "modules." The concept of a module is best understood through an example. Each module is a unique collection of code packaged in a Docker container with its own computational environment, capable of running independently from all others on a separate machine. All model logic is separated into unique modules and the only way the module interact with each other is via writing data to a shared database (Redis). Therefore, we can have a platform which can work with different programming languages and it will be easy to "plug in" or "unplug" a module as long as the module read and write data in a similar way. For more information, refer to the [Github Wiki](https://github.com/LungFungalGrowth/invasive-aspergillosis/wiki).
+he major innovation that the modeling design implements is the separation of multiscale dynamics and components into individual “modules.” The full set of biological, chemical, and physical behaviors remains encoded within the model but the software architecture is such that each module is a unique collection of code packaged with its own computational environment, capable of running on a separate process. The modules then communicate by mutating a shared state variable that exists within memory. The effect of such structure is to remove any interdependence between modules so that a modeler interested in extending or modifying the model can do so without changing the parts of the model that are outside the scope of the desired changes, For example, the aspergillus module contains code that supports aspergillus data initialization and update, but if an improved or tangential model is created to replace the existing model, only the aspergillus module will need to be edited. In comparison, a more conventional software structure would require the understanding and ability to modify a macrophage module equivalent to avoid breaking the code. Therefore, we can have a robust platform which can work with different programming languages and it will be easy to “plug in” or “unplug” a module as long as the modules read and write data in a similar way. For more information, refer to the Github Wiki.
 
-<img src="https://data.nutritionallungimmunity.org/api/v1/file/5d960c3eef2e2603553c5777/download?contentDisposition=inline" alt='missing' width="1000"     height="500" />
+<img src="https://data.nutritionallungimmunity.org/api/v1/file/5db9a799ef2e2603553c5950/download?contentDisposition=inline" alt='missing' width="1000"     height="500" />
 
 
 
