@@ -24,6 +24,30 @@ title: A description of the model, the workflow of model building, and associate
 
 # Our approach
 
+## Agent-based modeling
+
+We are building a 3D agent-based model of the innate immune response to _invasive pulmonary aspergillosis_ with a focus on the "battle over iron" that occurs in the alveolar space between the host and the fungus. [Agent-based modeling](https://en.wikipedia.org/wiki/Agent-based_model) aims to model how autonomous individuals interact with each other and their computational environment. For us, the individual agents are:
+
+1. Alveolar macrophages.
+1. Monocyte derived macrophages.
+1. Monocyte derived dendritic cells (DCs).
+1. Neutrophils.
+1. Epithelial cells.
+1. _A. fumigatus_
+
+Agents behave according to a set of rules that are derived from literature and _de novo_ experiments. For example, the monocyte derived macrophages respond to the sensing of _A. fumigatus_ and respond accordingly to the output of an intracellular Generalized Boolean network (GBN). The GBN is built from a combination of literature results and a dataset generated as part of this project.
+
+### Calibrating the model with experimental data
+
+In order to build the 3D agent based model, we have performed several _in vivo_ and _in vitro_ experiments.
+
+For example, we co-cultured monocyte derived macrophages with _A. fumigatus_ in a time-series and extracted mRNA for RNA sequencing. We used the transcriptomic data for the calibration of the intracellular model of macrophages. We also performed other protein-level assays to calibrate parameters related to extracellular behavior.
+
+<figure>
+<img  src="https://data.nutritionallungimmunity.org/api/v1/file/5e0f99d4c1b2cfe0661e564d/download?contentDisposition=inline" width="400" height="250"/>
+</figure>
+
+
 <a name="datadiagram">
 # Data associated with the model building effort.
 <table style="width:100%">
