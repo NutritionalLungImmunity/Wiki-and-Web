@@ -1,4 +1,4 @@
 ---
 layout: default
-title: A description of the model and its implementation
+title: A description of the epithelium behaviour and all associated data.
 ---

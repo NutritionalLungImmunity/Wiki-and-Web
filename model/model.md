@@ -15,11 +15,10 @@ title: A description of the model, the workflow of model building, and associate
 <figure class="center">
     <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce32bc1b2cfe0661e5629/download?contentDisposition=inline" width="700" height="500"/>
 </figure>
-
+<b>High level description of IPA.</b>
 <a name="lungimmunity">
 # Focusing on nutritional immunity
-
-
+<b>Describe the focus on iron</b>
 <a name="approach">
 
 # Our approach
@@ -35,21 +34,27 @@ We are building a 3D agent-based model of the innate immune response to _invasiv
 1. Epithelial cells.
 1. _A. fumigatus_
 
-Agents behave according to a set of rules that are derived from literature and _de novo_ experiments. For example, the monocyte derived macrophages respond to the sensing of _A. fumigatus_ and respond accordingly to the output of an intracellular Generalized Boolean network (GBN). The GBN is built from a combination of literature results and a dataset generated as part of this project.
+Agents behave according to a set of rules that are derived from literature and _de novo_ experiments. For example, the monocyte derived macrophages respond to the sensing of _A. fumigatus_ and respond accordingly to the output of an intracellular Generalized Boolean network (GBN). The GBN is built from a combination of literature results and analysis of a transcriptomics dataset generated as part of this project.
 
 ### Calibrating the model with experimental data
 
 In order to build the 3D agent based model, we have performed several _in vivo_ and _in vitro_ experiments.
 
-For example, we co-cultured monocyte derived macrophages with _A. fumigatus_ in a time-series and extracted mRNA for RNA sequencing. We used the transcriptomic data for the calibration of the intracellular model of macrophages. We also performed other protein-level assays to calibrate parameters related to extracellular behavior.
+For example, we co-cultured monocyte derived macrophages with _A. fumigatus_ in a time-series and extracted mRNA for RNA sequencing. We used the transcriptomic data for the calibration of the intracellular model of macrophages. We also performed other protein-level assays such as ELISA and blot assays to calibrate parameters related to extracellular behavior. For the purpose of transparency, all experimental data that was generated with the goal of calibrating the 3D model can be found on this website.
 
 <figure>
 <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5e0f99d4c1b2cfe0661e564d/download?contentDisposition=inline" width="400" height="250"/>
+<figcaption>A summary of our experimental pipeline for monocyte-derived macrophages.</figcaption>
 </figure>
+
+
 
 
 <a name="datadiagram">
 # Data associated with the model building effort.
+
+The overall model building process can be described as a pipeline going from experimental work to computational analysis of the experimental data, to mathematical modeling, to the implementation and incorporation of a version of the mathematical model into the 3D agent-based model. For example, monocyte derived macrophages, which are known to play a crucial role in iron-handling during infection, are included as agents in the 3D agent-based model. To derive the rules of a monocyte derived macrophage, we built a generalized boolean network (GBN) model from a combination of literature and experiments. All the experimental data that was used to derive rules in the GBN can be found in the experimental section in the table below.
+
 <table style="width:100%">
  <col align="left">
  <col align="left">

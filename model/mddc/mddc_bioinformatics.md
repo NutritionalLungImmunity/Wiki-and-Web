@@ -1,6 +1,6 @@
 ---
 layout: default
-title: A description of the monocyte derived dendritic cell bioinformatics pipeline.
+title: A description of the monocyte derived dendritic cell bioinformatics pipelines.
 ---
 
 # Table of Contents  

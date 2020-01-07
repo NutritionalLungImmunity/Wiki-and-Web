@@ -1,4 +1,4 @@
 ---
 layout: default
-title: A description of the neutrophil behaviour and all associated data.
+title: A description of the neutrophils bioinformatics pipelines.
 ---
