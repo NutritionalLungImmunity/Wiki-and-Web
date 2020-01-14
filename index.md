@@ -22,42 +22,17 @@ We are building a 3D agent-based model of the innate immune response to _invasiv
 1. Epithelial cells.
 1. _A. fumigatus_
 
-Agents behave according to a set of rules that are derived from literature and _de novo_ experiments. For example, the monocyte derived macrophages respond to the sensing of _A. fumigatus_ and respond accordingly to the output of an intracellular Generalized Boolean network (GBN). The GBN is built from a combination of literature results and analysis of a transcriptomics dataset generated as part of this project.
+Agents behave according to a set of rules that are derived from literature and _de novo_ experiments. For example, the monocyte derived macrophages respond to the sensing of _A. fumigatus_ and respond accordingly to the output of an intracellular [Generalized Boolean Network](https://en.wikipedia.org/wiki/Boolean_network) (GBN). The GBN is built from a combination of literature results and analysis of a transcriptomics dataset generated as part of this project.
 
 Importantly, we are implementing the model in an innovative modularized framework to make the model extendable and customizable by the community.
 
-## Transparent model building
+## Transparent model building and information management
 
-### Three use-cases of multi-scale model.
-
-Multiscale mathematical modeling of disease brings together a wide array of scientists with various backgrounds. As a result, a diverse set of data is utilized in the model building effort. We provide an example from our own project to describe what we mean.
-
-__Example Goal:__ Implement a model of the iron-handling behavior of an immune cell in response to _A. fumigatus_
-
-  To answer this question, the following steps could be taken: An experimentalist might perform a co-cultured experiment of an immune cell type with _A. fumigatus_. Various experiments such as transcriptomics and ELISA are used to measure transcriptional and protein-level changes. After sequencing, the data is preprocessed and analyzed by a computational biologist. Such analysis (such as differential expression analysis, pathway analysis, etc.),together with the protein-level data, is then used to enrich a preliminary intracellular mathematical model built from literature knowledge. The implementation of this individual-cell model is then incorporated into the tissue-level 3D model.
-
-  From this example alone, we see the various data that were required and/or generated:
-  1. Experimental notebooks describing the protocol of the experiment.
-  2. Raw data.
-  3. Computational scripts analyzing the generated data.
-  4. Versions of different software used in the analysis.
-  5. Literature results.
-  6. Implementation of mathematical model.
-
-The diversity of scientists that is needed in the building of the multiscale mathematical model is also reflected by the diversity of consumers of the multiscale mathematical model. We spell out 3 use cases.
-
-1. Bench scientist: We expect that most of our users would be scientists that enter the project by reading a publication or hearing a presentation related to the multiscale mathematical model. Such user might be interested in running simulations, in which case we are developing a web-based tool for running the model without any installation or looking through the low-level details. Alternatively, the user might be interested in an experimental dataset that was used to generate the rules of an individual cell in the overall model implementation. Such an user would then navigate to this <a href="{{ site.baseurl }}{% link model/model.md %}"> section </a> which provides references to all the data generated from experiments as well as the accompanying experimental notebooks.
-
-2. Scientists hoping to expand/adapt our modeling platform: Our goal is to build a computational infrastructure that can be used to model how the immune system responds to _A. fumigatus_. A user might be interested in modifying or expand our current multiscale model and running simulations to see how their adaption differs from ours and/or contribute their independent model of a cell type we have not implemented as of yet. For that user, it might be of interest to read the implementation details of the overall 3D computational model, as well as a guide to the API on how to extend the model. We envision that such an user would be most interested in this <a href="{{ site.baseurl }}{% link design/design.md %}"> section </a>.
-
-3. Internal lab members: Long term projects in computational projects in academia are challenged by a high turnover of trainees that come into the project. Moreover, in the building of multiscale modeling, team members might be working on individual components in parallel. Our hope is to provide a central repository where a new lab member can find all of the pieces that have been used in the process of the project and get them up to speed. For example, a new member might be in charge of preprocessing data of a cell type not previously analyzed. For the sake of consistency and efficiency, the new lab member can then refer to the bioinformatics column in the table provided in this <a href="{{ site.baseurl }}{% link model/model.md %}"> section </a> where they can find scripts utilized for the analysis of previously generated data.
-
+Multiscale mathematical modeling of disease brings together a wide array of scientists with various backgrounds. As a result, a diverse set of data, code, and tools are utilized in the model building effort, all of which needs to be freely available and understandable to enable collaboration and replication. To this end, we have invested in creating a comprehensive information management system to empower various information consumers including bench scientists, modeling and simulation experts, and internal lab members to find the information they need to use and extend our models.
 
 ### Modular software design
-The major innovation that the modeling design implements is the separation of multiscale dynamics and components into individual “modules.” The full set of biological, chemical, and physical behaviors remains encoded within the model but the software architecture is such that each module is a unique collection of code packaged with its own computational environment, capable of running on a separate process. The modules then communicate by mutating a shared state variable that exists within memory. The effect of such structure is to remove any interdependence between modules so that a modeler interested in extending or modifying the model can do so without changing the parts of the model that are outside the scope of the desired changes, For example, the aspergillus module contains code that supports aspergillus data initialization and update, but if an improved or tangential model is created to replace the existing model, only the aspergillus module will need to be edited. In comparison, a more conventional software structure would require the understanding and ability to modify a macrophage module equivalent to avoid breaking the code. Therefore, we can have a robust platform which can work with different programming languages and it will be easy to “plug in” or “unplug” a module as long as the modules read and write data in a similar way. For more information, refer to the Github Wiki.
 
-<img src="https://data.nutritionallungimmunity.org/api/v1/file/5db9a799ef2e2603553c5950/download?contentDisposition=inline" alt='missing' width="1000"     height="500" />
-
+The major innovation that the modeling design implements is the separation of multiscale dynamics and components into individual “modules.” The full set of biological, chemical, and physical behaviors remains encoded within the model but the software architecture is such that each module is a unique collection of code packaged with its own computational environment. The goal of such structure is to remove any interdependence between modules so that a modeler interested in extending or modifying the model can do so without changing the parts of the model that are outside the scope of the desired changes.
 
 
 ## News
