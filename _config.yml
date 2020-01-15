@@ -1,3 +1,49 @@
-theme: jekyll-theme-cayman
-title: Multiscale modeling of the battle over iron in the lung
-description: A multiscale computational model of the innate immune response to the opportunistic fungus Aspergillus fumigatus.
+theme: bulma-clean-theme
+
+#Site Settings
+title: Nutritional Lung Immunity
+tagline: Multiscale modeling of the battle over iron in the lung
+description: >
+  A multiscale computational model of the innate immune response to the opportunistic fungus Aspergillus fumigatus.
+url: "https://nutritionallungimmunity.org/"
+permalink: pretty
+favicon: /favicon.ico
+
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
+
+exclude:
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+#google_analytics: UA-code-here
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      show_sidebar: true
+
+markdown: kramdown
+highlighter: rouge
+
+footer_menu: example_footer_menu

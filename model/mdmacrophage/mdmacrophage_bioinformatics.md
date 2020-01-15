@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: A description of the monocyte derived macrophage behaviour and all associated data.
+show_sidebar: false
 ---
 # Table of Contents  
 *  [_In vitro_ time-series RNAseq data from monocyte derived dendritic cells exposed to _A. fumigatus_ conidia. (Experiment McocultAF)](#titlemcocultaf)

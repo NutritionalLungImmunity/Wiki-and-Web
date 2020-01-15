@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: A description of the monocyte derived macrophage behaviour and all associated data.
+show_sidebar: false
 ---
 
 <figure>

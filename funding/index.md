@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: page
 title: Funding
+show_sidebar: false
+toc: true
 ---
-
-1. [__Multiscale modeling of the battle over iron in invasive lung infection__](#niaid)
-2. [__Modular design of multiscale models, with an application to the innate immune response to fungal respiratory pathogens__](#nibib)  
 
 <a name="niaid">
 ## __Multiscale modeling of the battle over iron in invasive lung infection__  

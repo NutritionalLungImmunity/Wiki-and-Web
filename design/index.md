@@ -1,6 +1,8 @@
 ---
-layout: default
-title: Principles of software design for multiscale model of nutritional lung immunity to A. fumigatus
+layout: page
+title: Software Design
+subtitle: Principles of software design for multiscale model of nutritional lung immunity to A. fumigatus
+show_sidebar: false
 ---
 
 ## Modular software design

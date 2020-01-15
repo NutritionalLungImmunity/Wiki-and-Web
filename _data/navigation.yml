@@ -1,0 +1,8 @@
+- name: Team Members
+  link: /people/
+- name: Funding
+  link: /funding/
+- name: Model Building
+  link: /model/
+- name: Software Design
+  link: /design/
