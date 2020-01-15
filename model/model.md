@@ -15,15 +15,22 @@ title: A description of the model, the workflow of model building, and associate
 <figure class="center">
     <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce32bc1b2cfe0661e5629/download?contentDisposition=inline" width="700" height="500"/>
 </figure>
+The average human inhales hundreds of spores of the _A. fumigatus_ fungus on a daily basis. Despite of this, the vast majority of immunocompetent patients are able to clear the fungus without any seeming effects. A small number of spores are capable of reaching the alveolar sac, where resident macrophages and epithelial cells quickly mount an immune response recruiting various other cells from the circulation such as dendritic cells (DCs), monocyte derived macrophages, and neutrophils. A weakened immune system (e.g. neutropenia) presents a window of opportunity for the fungus to start germinating and breach the epithelial layer, getting into the circulation and causing a systemic infection. Thus, the immune system must act quickly and efficiently to clear the fungus.
 
 
-<b>High level description of IPA.</b>
+
+
+
 <a name="lungimmunity">
-# Focusing on nutritional immunity
-<b>Describe the focus on iron</b>
+## Focusing on nutritional immunity
+Although the response of the innate immune system to _A. fumigatus_ is multifaceted, the sequestration of iron (in turn starving the fungus from its needed iron) by the host's immune cells is a crucial response to reduce fungal burden. The _A. fumigatus_ mould is equipped with a sideorophore system that attempts to scavenge iron from its environment. The host immune system is equipped with various mechanisms of iron retention and scavenging. We thus focus on this __battle over iron__ that occurs in the alveolar space between the host and the fungus.
+
 <a name="approach">
 
 # Our approach
+## Multiscale modeling
+
+The progression of _invasive pulmonary aspergillosis_ is dependent on processes that occur at various spatiotemporal scales. For example, after the spore is inhaled into the alveolar space (tissue scale), receptors on immune cells detect the pathogen and initiate intracellular signaling processes (intracelullar scales) that result in the translation of various cytokines and chemokines. Some of these cytokines then get into the circulation and recruit other immune cells to the site of infection. For example, the cytokine interleukin-6 signals the liver (whole-body scale) to produce the hormone hepcidin which works to reduce iron export from host cells, arresting iron from pathogens. These biophysical processes take effect in ranges from milliseconds to hours. As such, the area of multiscale modeling is becoming increasingly popular for the modeling of diseases that affect multiple scales. [Multiscale modeling](https://en.wikipedia.org/wiki/Multiscale_modeling) seeks to model system behavior by modeling the events occurring at various scales and bridging them appropiately.
 
 ## Agent-based modeling
 
@@ -35,8 +42,10 @@ We are building a 3D agent-based model of the innate immune response to _invasiv
 1. Neutrophils.
 1. Epithelial cells.
 1. _A. fumigatus_
+1. Liver cells
 
 Agents behave according to a set of rules that are derived from literature and _de novo_ experiments. For example, the monocyte derived macrophages respond to the sensing of _A. fumigatus_ and respond accordingly to the output of an intracellular [Generalized Boolean Network](https://en.wikipedia.org/wiki/Boolean_network) (GBN). The GBN is built from a combination of literature results and analysis of a transcriptomics dataset generated as part of this project.
+
 
 
 ### Calibrating the model with experimental data
