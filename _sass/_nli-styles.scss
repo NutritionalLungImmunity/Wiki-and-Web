@@ -1,4 +1,9 @@
 .content {
+  h2 {
+    border-bottom: 1px solid $grey-lightest;
+    padding-bottom: 10px;
+  }
+
   .models-table-wrapper {
     .legend {
       .card-content {
