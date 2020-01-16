@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: Data associated to the geometry of alveoli
+show_sidebar: false
 ---
 
 <figure>

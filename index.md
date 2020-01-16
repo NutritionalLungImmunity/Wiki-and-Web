@@ -1,9 +1,12 @@
 ---
-layout: default
+layout: page
+title: Multiscale model of nutritional immunity in invasive pulmonary aspergillosis
+subtitle: A multiscale computational model of the innate immune response to the opportunistic fungus Aspergillus fumigatus.
+show_sidebar: false
 ---
 
 # Multiscale model of nutritional immunity in invasive pulmonary aspergillosis
-The purpose of the work is to develop a multiscale computational model to simulate the invasion of the human lungs by spores of the opportunistic fungus _Aspergillus fumigatus_. In particular, we explore the role of **nutritional immunity** in clearing  infection, with a focus on iron. This project is currently funded by The National Institutes of Health and The National Science Foundation of the United States of America (see <a href="{{ site.baseurl }}{% link funding/funding.md %}"> funding section </a>). The team includes members from [The Center for Quantitative Medicine at UConn Health](https://health.uconn.edu/laubenbacher/), [The Jackson Laboratory for Genomic Medicine](https://www.jax.org/about-us/locations/farmington), [UF Health](https://ufhealth.org/), and [Kitware](https://www.kitware.com/).
+The purpose of the work is to develop a multiscale computational model to simulate the invasion of the human lungs by spores of the opportunistic fungus _Aspergillus fumigatus_. In particular, we explore the role of **nutritional immunity** in clearing  infection, with a focus on iron. This project is currently funded by The National Institutes of Health and The National Science Foundation of the United States of America (see <a href="{{ site.baseurl }}{% link funding/index.md %}"> funding section </a>). The team includes members from [The Center for Quantitative Medicine at UConn Health](https://health.uconn.edu/laubenbacher/), [The Jackson Laboratory for Genomic Medicine](https://www.jax.org/about-us/locations/farmington), [UF Health](https://ufhealth.org/), and [Kitware](https://www.kitware.com/).
 
 
 Invasive pulmonary aspergillosis (IPA) is initiated by the inhalation of spores that then reach the alveolar space. Recognition of spores by the innate immune system and epithelial cells lead to a immune response recruiting various leukocytes to the site of infection.

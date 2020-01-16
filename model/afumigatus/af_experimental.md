@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: A description of mathematical models associated with A. fumigatus
+show_sidebar: false
 ---
 
 

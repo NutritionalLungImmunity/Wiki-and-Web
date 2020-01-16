@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: page
 title: Team members
-description: Members of the project, previous and past.
+subtitle: Members of the project, previous and past.
+show_sidebar: false
 ---
 
 # Dr. Reinhard Laubenbacher's Laboratory

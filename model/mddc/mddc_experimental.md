@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: page
 title: A description of experiments related to monocyte derived DCs in the context of A. fumigatus
+show_sidebar: false
 ---
 
 ## Table of Contents  
