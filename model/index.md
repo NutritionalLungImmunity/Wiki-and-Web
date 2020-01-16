@@ -83,105 +83,174 @@ The diversity of scientists that is needed in the building of the multiscale mat
 
 The overall model building process can be described as a pipeline going from experimental work to computational analysis of the experimental data, to mathematical modeling, to the implementation and incorporation of a version of the mathematical model into the 3D agent-based model. For example, monocyte derived macrophages, which are known to play a crucial role in iron-handling during infection, are included as agents in the 3D agent-based model. To derive the rules of a monocyte derived macrophage, we built a generalized boolean network (GBN) model from a combination of literature and experiments. All the experimental data that was used to derive rules in the GBN can be found in the experimental section in the table below.
 
-<table style="width:100%">
- <col align="left">
- <col align="left">
- <col align="right">
- <tr>
-   <th>Experimental data  </th>
-   <th>Bioinformatics</th>
-   <th>Mathematical models</th>
- </tr>
- <tr>
-   <td><p><b><center>Intracellular scale</center></b><a align="center" href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_experimental.md %}">
-       <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" width="50" height="30"/><u>Experimental notebooks and raw data associated with monocyte derived macrophages</u>
-       </a> </p>
+<table class="models-table header-column" style="width:100%">
+  <thead>
+    <tr>
+      <th class="has-text-centered"></th>
+      <th class="has-text-centered">Experimental data</th>
+      <th class="has-text-centered">Bioinformatics</th>
+      <th class="has-text-centered">Mathematical models</th>
+    </tr>
+  </thead>
+  <tbody>
 
+    <!-- INTRACELLULAR SCALE -->
+    <tr>
+      <th class="has-text-centered"></th>
+      <th class="has-text-centered" colspan="3"> Intracellular Scale</th>
+    </tr>
 
-       <a href="{{ site.baseurl }}{% link model/mddc/mddc_experimental.md %}">
-       <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" width="50" height="30"/><u>Experimental notebooks and raw data associated with monocyte DCs</u>
-       </a>
+    <tr>
+      <td>Monocyte Derived Macrophages</td>
+      <td>
+        <div>
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Macrophages">
+          <a href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_experimental.md %}">Experimental notebooks and raw data</a>
+        </div>
+      </td>
+      <td>
+        <div>
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Macrophages">
+          <a href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_bioinformatics.md %}">Computational pipelines</a>
+        </div>
+      </td>
+      <td>
+        <div>
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Macrophages">
+          <a href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_mathematical.md %}">Mathematical models</a>
+        </div>
+      </td>
+    </tr>
 
+    <tr>
+      <td>Monocyte Derived DCs</td>
+      <td>
+        <div>
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived DCs">
+          <a href="{{ site.baseurl }}{% link model/mddc/mddc_experimental.md %}">Experimental notebooks and raw data</a>
+        </div>
+      </td>
+      <td>
+        <div>
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived DCs">
+          <a href="{{ site.baseurl }}{% link model/mddc/mddc_bioinformatics.md %}">Computational pipelines</a>
+        </div>
+      </td>
+      <td>
+        <div>
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived DCs">
+          <a href="{{ site.baseurl }}{% link model/mddc/mddc_mathematical.md %}">Mathematical models</a>
+        </div>
+      </td>
+    </tr>
 
+    <tr>
+      <td><em>A. fumigatus</em></td>
+      <td>
+        <div></div>
+      </td>
+      <td>
+        <div></div>
+      </td>
+      <td>
+        <div>
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce335c1b2cfe0661e562c/download?contentDisposition=inline" height="auto" width="36" alt="A. fumigatus">
+          <a href="{{ site.baseurl }}{% link model/afumigatus/af_mathematical.md %}">Mathematical models</a>
+        </div>
+      </td>
+    </tr>
 
-        </td>
-   <td><p><b><center>Intracellular scale </center></b><a align="center" href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_bioinformatics.md %}">
-       <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" width="50" height="30"/><u>Computational pipelines to analyze monocyte derived macrophage related data</u>
-       </a> </p>
+    <tr>
+      <td>Alveolar Epithelial Cells</td>
+      <td>
+        <div></div>
+      </td>
+      <td>
+        <div></div>
+      </td>
+      <td>
+        <div>
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdfeac1b2cfe0661e5626/download?contentDisposition=inline" height="auto" width="36" alt="Alveolar Epithelial Cells">
+          <a href="{{ site.baseurl }}{% link model/epithelium/epithelium_mathematical.md %}">Mathematical models</a>
+        </div>
+      </td>
+    </tr>
 
-       <a href="{{ site.baseurl }}{% link model/mddc/mddc_bioinformatics.md %}">
-       <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" width="50" height="30"/><u>Computational pipelines to analyze monocyte derived DC related data</u>
-       </a>
+    <tr>
+      <td>Alveolar Macrophages</td>
+      <td>
+        <div></div>
+      </td>
+      <td>
+        <div></div>
+      </td>
+      <td>
+        <div>
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdf5ec1b2cfe0661e5623/download?contentDisposition=inline" height="auto" width="36" alt="Alveolar Macrophages">
+          <a href="{{ site.baseurl }}{% link model/alveolarmacrophage/alveolar_macrophage_mathematical.md %}">Mathematical models</a>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td>Neutrophils</td>
+      <td>
+        <div></div>
+      </td>
+      <td>
+        <div></div>
+      </td>
+      <td>
+        <div>
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbd8edc1b2cfe0661e561d/download?contentDisposition=inline" height="auto" width="36" alt="Neutrophils">
+          <a href="{{ site.baseurl }}{% link model/neutrophil/neutrophil_mathematical.md %}">Mathematical models</a>
+        </div>
+      </td>
+    </tr>
 
+    <!-- TISSUE SCALE -->
+    <tr>
+      <th class="has-text-centered"></th>
+      <th class="has-text-centered" colspan="3"> Tissue Scale</th>
+    </tr>
 
-       </td>
+    <tr>
+      <td>Geometry</td>
+      <td>
+        <div></div>
+      </td>
+      <td>
+        <div></div>
+      </td>
+      <td>
+        <div>
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b2ef2e2603553c5690/download?contentDisposition=inline" height="auto" width="36" alt="Geometry">
+          <a href="{{ site.baseurl }}{% link model/Geometry/Geometry.md %}">Files for generation</a>
+        </div>
+      </td>
+    </tr>
 
-   <td><p><b><center>Intracellular scale</center></b><a align="center" href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_mathematical.md %}">
-       <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" width="50" height="30"/><u>Mathematical models associated with monocyte derived macrophages</u>
-       </a> </p>
-       <a href="{{ site.baseurl }}{% link model/mddc/mddc_mathematical.md %}">
-       <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" width="50" height="30"/><u>Mathematical models associated with monocyte derived DCs </u>
-       </a>
-       <p>
-       <a href="{{ site.baseurl }}{% link model/afumigatus/af_mathematical.md %}">
-       <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce335c1b2cfe0661e562c/download?contentDisposition=inline" width="50" height="30"/><u>Mathematical models associated with <i> A. fumigatus </i> </u>
-       </a>
-       </p>
-       <p>
-       <a href="{{ site.baseurl }}{% link model/epithelium/epithelium_mathematical.md %}">
-       <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdfeac1b2cfe0661e5626/download?contentDisposition=inline" width="50" height="30"/><u>Mathematical models associated with alveolar epithelial cells </u>
-       </a>
-       </p>
-       <p>
-       <a href="{{ site.baseurl }}{% link model/neutrophil/neutrophil_mathematical.md %}">
-       <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbd8edc1b2cfe0661e561d/download?contentDisposition=inline" width="50" height="30"/><u>Mathematical models associated with neutrophils </u>
-       </a>
-       </p>
-       <p>
-       <a href="{{ site.baseurl }}{% link model/alveolarmacrophage/alveolar_macrophage_mathematical.md %}">
-       <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdf5ec1b2cfe0661e5623/download?contentDisposition=inline" width="50" height="30"/><u>Mathematical models associated with alveolar macrophages </u>
-       </a>
-       </p>
+    <!-- WHOLE-BODY SCALE -->
+    <tr>
+      <th class="has-text-centered"></th>
+      <th class="has-text-centered" colspan="3"> Whole-body Scale</th>
+    </tr>
 
-
-       </td>
-
- </tr>
- <tr>
- <td>
- <p><b><center>Tissue scale</center></b></p>
-
- </td>
- <td><p><b><center>Tissue scale</center></b></p>
-
- </td>
- <td><p><b><center>Tissue scale</center></b></p>
- <a href="{{ site.baseurl }}{% link model/Geometry/Geometry.md %}">
-  <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b2ef2e2603553c5690/download?contentDisposition=inline" width="50" height="50"/>
-  <u>Files related to the generation of the geometry.</u>
-  </a>
-
-
- </td>
-
-
- </tr>
- <tr>
- <td>
- <p><b><center>Whole-body scale</center></b></p>
-
- </td>
- <td><p><b><center>Whole-body scale</center></b></p>
- </td>
-
- <td><p><b><center>Whole-body scale</center></b></p>
-  <a href="{{ site.baseurl }}{% link model/liver/liver_mathematical.md %}">
-   <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbccd9c1b2cfe0661e561a/download?contentDisposition=inline" width="50" height="50"/>
-   <u>Files related to the mathematical model of the liver</u></a>
- </td>
-
-
- </tr>
+    <tr>
+      <td>Liver</td>
+      <td>
+        <div></div>
+      </td>
+      <td>
+        <div></div>
+      </td>
+      <td>
+        <div>
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbccd9c1b2cfe0661e561a/download?contentDisposition=inline" height="auto" width="36" alt="Liver">
+          <a href="{{ site.baseurl }}{% link model/liver/liver_mathematical.md %}">Mathematical model files</a>
+        </div>
+      </td>
+    </tr>
+  </tbody>
 </table>
 
 ## Bridging the scales
