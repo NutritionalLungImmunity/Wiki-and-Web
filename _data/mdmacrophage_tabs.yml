@@ -1,0 +1,16 @@
+alignment: is-left
+style: is-boxed
+size: is-small
+items:
+  - name: Model Building and Information management
+    link: /model/
+    icon: fa-mortar-pestle
+  - name: Experiments
+    link: /model/mdmacrophage/mdmacrophage_experimental
+    icon: fa-microscope
+  - name: Bioinformatics and data analysis
+    link: /model/mdmacrophage/mdmacrophage_bioinformatics
+    icon: fa-dna
+  - name: Mathematical models
+    link: /model/mdmacrophage/mdmacrophage_mathematical
+    icon: fa-square-root-alt

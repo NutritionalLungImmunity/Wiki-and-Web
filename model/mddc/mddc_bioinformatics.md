@@ -1,13 +1,14 @@
 ---
+title: Nutritional Lung Immunity
+subtitle: A description of the monocyte derived dendritic cell bioinformatics pipelines.
 layout: page
-title: A description of the monocyte derived dendritic cell bioinformatics pipelines.
 show_sidebar: false
+menubar: example_menu
+tabs: mddc_tabs
 toc: true
 ---
 
-<figure>
-    <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" width="200" height="150"/>
-</figure>
+
 
 ## __In vitro__ time-series RNAseq data from monocyte derived dendritic cells exposed to A. fumigatus conidia (Experiment DCcocultAF).
 Description: Monocyte derived dendritic cells from six different human donors (IL-4/GM-CSF differentiated) were exposed to _Aspergillus fumigatus_ conidia with cell:conidia ratio=1:1 for 0, 2, 4, 6, 8 hours. Purity of dendritic cells was confirmed by flow cytometry using CD14-/Cd1a+/HLA+/CD83+. For more details, go to the <a href="{{ site.baseurl }}{% link model/mddc/mddc_experimental.md %}"> experimental section for monocyte derived DCs and see the section for (Experiment DCcocultAF).

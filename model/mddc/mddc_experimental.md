@@ -1,16 +1,12 @@
 ---
+title: Nutritional Lung Immunity
+subtitle: A description of experiments related to the monocyte derived dendritic cells.
 layout: page
-title: A description of experiments related to monocyte derived DCs in the context of A. fumigatus
 show_sidebar: false
+menubar: example_menu
+tabs: mddc_tabs
+toc: true
 ---
-
-## Table of Contents  
-*  [_In vitro_ time-series RNAseq data from monocyte derived dendritic cells exposed to _A. fumigatus_ conidia (Experiment DCcocultAF).](titledccocultaf)
-    1. [Description](#briefdescriptiondccocultaf)  
-    2. [Data availability](#dataavailabilitydccocultaf)
-<figure>
-    <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" width="200" height="150"/>
-</figure>
 
 
 ## __In vitro__ time-series RNAseq data from monocyte derived dendritic cells exposed to A. fumigatus conidia (Experiment DCcocultAF).

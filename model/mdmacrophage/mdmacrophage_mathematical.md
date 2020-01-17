@@ -1,14 +1,14 @@
 ---
+title: Nutritional Lung Immunity
+subtitle: A description of mathematical models related to the monocyte derived macrophages.
 layout: page
-title: A description of the monocyte derived macrophage behaviour and all associated data.
 show_sidebar: false
+menubar: example_menu
+tabs: mdmacrophage_tabs
+toc: true
 ---
 
-<figure>
-    <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" width="200" height="150"/>
-</figure>
-
-# Mathematical model
+## Modeling iron handling by monocyte derived macrophages challenged by _A. fumigatus_
 Iron is essential for all living organisms. A characteristic immune response to infections is the sequestration of iron by macrophages to keep it away from pathogens. We have created a generalized Boolean model of how monocyte derived activate an iron metabolism program after sensing _A. fumigatus_ based on the transcriptomics data (see the Bioinformatics section) as well as the literature.
 
 <figure>

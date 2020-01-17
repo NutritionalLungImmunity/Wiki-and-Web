@@ -1,5 +1,10 @@
 ---
+title: Nutritional Lung Immunity
+subtitle: A description of the epithelium bioinformatics pipelines.
 layout: page
-title: A description of the epithelium behaviour and all associated data.
 show_sidebar: false
+menubar: example_menu
+tabs: epithelium_tabs
+toc: true
 ---
+<i class="fa fa-gear fa-spin fa-2x" style="color: firebrick"></i> Nothing yet! Check back soon

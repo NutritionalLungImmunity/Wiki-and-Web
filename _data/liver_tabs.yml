@@ -1,0 +1,16 @@
+alignment: is-left
+style: is-boxed
+size: is-small
+items:
+  - name: Model Building and Information management
+    link: /model/
+    icon: fa-mortar-pestle
+  - name: Experiments
+    link: /model/liver/liver_experimental
+    icon: fa-microscope
+  - name: Bioinformatics and data analysis
+    link: /model/liver/liver_bioinformatics
+    icon: fa-dna
+  - name: Mathematical models
+    link: /model/liver/liver_mathematical
+    icon: fa-square-root-alt

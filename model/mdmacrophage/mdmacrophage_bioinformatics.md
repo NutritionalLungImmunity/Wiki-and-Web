@@ -1,17 +1,13 @@
 ---
+title: Nutritional Lung Immunity
+subtitle: A description of the monocyte derived macrophages bioinformatics pipelines.
 layout: page
-title: A description of the monocyte derived macrophage behaviour and all associated data.
 show_sidebar: false
+menubar: example_menu
+tabs: mdmacrophage_tabs
+toc: true
 ---
-# Table of Contents  
-*  [_In vitro_ time-series RNAseq data from monocyte derived dendritic cells exposed to _A. fumigatus_ conidia. (Experiment McocultAF)](#titlemcocultaf)
-    1. [Description](#briefdescriptionmcocultaf)  
-    2. [Preprocessing pipeline](#preprocessingpipelinemcocultaf)
-    3. [Processed data](#processeddatamcocultaf)  
 
-<figure>
-    <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" width="200" height="150"/>
-</figure>
 
 <a name="titlemcocultaf">
 ## __In vitro__ time-series RNAseq data from monocyte derived macrophages exposed to A. fumigatus conidia (Experiment McocultAF).

@@ -1,0 +1,10 @@
+alignment: is-left
+style: is-boxed
+size: is-small
+items:
+  - name: Model Building and Information management
+    link: /model/
+    icon: fa-mortar-pestle
+  - name: Generating the geometry
+    link: /model/Geometry/Geometry
+    icon: fa-square-root-alt

@@ -104,110 +104,149 @@ The overall model building process can be described as a pipeline going from exp
     </tr>
 
     <tr>
-      <td>Monocyte Derived Macrophages</td>
       <td>
-        <div>
-          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Macrophages">
-          <a href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_experimental.md %}">Experimental notebooks and raw data</a>
+      <div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Macrophages">Monocyte derived macrophages</div>
+      </td>
+      <td>
+        <div  style="font-size: 24px;">
+        <a href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_experimental.md %}">
+          <i class="fa fa-dna" ></i><i class="fa fa-clipboard-check" ></i>
+             </a>
         </div>
       </td>
       <td>
-        <div>
-          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Macrophages">
-          <a href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_bioinformatics.md %}">Computational pipelines</a>
-        </div>
+
+          <div  style="font-size: 24px;">
+          <a href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_bioinformatics.md %}">
+          <i class="fa fa-dna" ></i><i class="fab fa-github"></i>
+
+          </a>
+          </div>
       </td>
       <td>
-        <div>
-          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Macrophages">
-          <a href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_mathematical.md %}">Mathematical models</a>
+        <div style="font-size: 24px;">
+          <a href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_mathematical.md %}">
+          <i class="fab fa-github"></i>
+          </a>
         </div>
       </td>
     </tr>
 
     <tr>
-      <td>Monocyte Derived DCs</td>
       <td>
-        <div>
-          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived DCs">
-          <a href="{{ site.baseurl }}{% link model/mddc/mddc_experimental.md %}">Experimental notebooks and raw data</a>
+      <div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Dendritic Cells">Monocyte Derived Dendritic Cells</div></td>
+      <td>
+        <div style="font-size: 24px;">
+          <a href="{{ site.baseurl }}{% link model/mddc/mddc_experimental.md %}">
+          <i class="fa fa-dna" ></i><i class="fa fa-clipboard-check" ></i>
+
+
+          </a>
         </div>
       </td>
       <td>
-        <div>
-          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived DCs">
-          <a href="{{ site.baseurl }}{% link model/mddc/mddc_bioinformatics.md %}">Computational pipelines</a>
+        <div style="font-size: 24px;">
+
+          <a href="{{ site.baseurl }}{% link model/mddc/mddc_bioinformatics.md %}">
+          <i class="fa fa-dna" ></i><i class="fab fa-github"></i>
+
+          </a>
         </div>
       </td>
       <td>
-        <div>
-          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived DCs">
-          <a href="{{ site.baseurl }}{% link model/mddc/mddc_mathematical.md %}">Mathematical models</a>
+        <div style="font-size: 24px;">
+          <a href="{{ site.baseurl }}{% link model/mddc/mddc_mathematical.md %}">
+
+          <i class="fa fa-wrench"></i>
+
+          </a>
+
         </div>
       </td>
     </tr>
 
     <tr>
-      <td><em>A. fumigatus</em></td>
+      <td><div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce335c1b2cfe0661e562c/download?contentDisposition=inline" height="auto" width="36" alt="Aspergillus fumigatus"><em>Aspergillus fumigatus</em></div></td>
       <td>
-        <div></div>
+        <div style="font-size: 24px;">
+        <i class="fa fa-wrench"></i>
+
+        </div>
       </td>
       <td>
-        <div></div>
+        <div style="font-size: 24px;">
+        <i class="fa fa-wrench"></i>
+
+        </div>
       </td>
       <td>
-        <div>
-          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce335c1b2cfe0661e562c/download?contentDisposition=inline" height="auto" width="36" alt="A. fumigatus">
-          <a href="{{ site.baseurl }}{% link model/afumigatus/af_mathematical.md %}">Mathematical models</a>
+        <div style="font-size: 24px;">
+        <i class="fa fa-wrench"></i>
         </div>
       </td>
     </tr>
 
     <tr>
-      <td>Alveolar Epithelial Cells</td>
+      <td><div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdfeac1b2cfe0661e5626/download?contentDisposition=inline" height="auto" width="36" alt="Alveolar epithelial cells"><em>Alveolar epithelial cells</em></div></td>      
       <td>
-        <div></div>
-      </td>
-      <td>
-        <div></div>
-      </td>
-      <td>
-        <div>
-          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdfeac1b2cfe0661e5626/download?contentDisposition=inline" height="auto" width="36" alt="Alveolar Epithelial Cells">
-          <a href="{{ site.baseurl }}{% link model/epithelium/epithelium_mathematical.md %}">Mathematical models</a>
-        </div>
-      </td>
+              <div style="font-size: 24px;">
+              <i class="fa fa-wrench"></i>
+
+              </div>
+            </td>
+            <td>
+              <div style="font-size: 24px;">
+              <i class="fa fa-wrench"></i>
+
+              </div>
+            </td>
+            <td>
+              <div style="font-size: 24px;">
+              <i class="fa fa-wrench"></i>
+              </div>
+            </td>
     </tr>
 
     <tr>
-      <td>Alveolar Macrophages</td>
+      <td> <div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdf5ec1b2cfe0661e5623/download?contentDisposition=inline" height="auto" width="36" alt="Alveolar macrophages"><em>Alveolar macrophages</em></div></td>   
       <td>
-        <div></div>
-      </td>
-      <td>
-        <div></div>
-      </td>
-      <td>
-        <div>
-          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdf5ec1b2cfe0661e5623/download?contentDisposition=inline" height="auto" width="36" alt="Alveolar Macrophages">
-          <a href="{{ site.baseurl }}{% link model/alveolarmacrophage/alveolar_macrophage_mathematical.md %}">Mathematical models</a>
-        </div>
-      </td>
+              <div style="font-size: 24px;">
+              <i class="fa fa-wrench"></i>
+
+              </div>
+            </td>
+            <td>
+              <div style="font-size: 24px;">
+              <i class="fa fa-wrench"></i>
+
+              </div>
+            </td>
+            <td>
+              <div style="font-size: 24px;">
+              <i class="fa fa-wrench"></i>
+              </div>
+            </td>
     </tr>
     <tr>
-      <td>Neutrophils</td>
-      <td>
-        <div></div>
-      </td>
-      <td>
-        <div></div>
-      </td>
-      <td>
-        <div>
-          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbd8edc1b2cfe0661e561d/download?contentDisposition=inline" height="auto" width="36" alt="Neutrophils">
-          <a href="{{ site.baseurl }}{% link model/neutrophil/neutrophil_mathematical.md %}">Mathematical models</a>
-        </div>
-      </td>
+    <td> <div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbd8edc1b2cfe0661e561d/download?contentDisposition=inline" height="auto" width="36" alt="Neutrophils"><em>Neutrophil</em></div></td>   
+    <td>
+            <div style="font-size: 24px;">
+            <i class="fa fa-wrench"></i>
+
+            </div>
+          </td>
+          <td>
+            <div style="font-size: 24px;">
+            <i class="fa fa-wrench"></i>
+
+            </div>
+          </td>
+          <td>
+            <div style="font-size: 24px;">
+            <i class="fa fa-wrench"></i>
+            </div>
+          </td>
+
     </tr>
 
     <!-- TISSUE SCALE -->
@@ -217,17 +256,22 @@ The overall model building process can be described as a pipeline going from exp
     </tr>
 
     <tr>
-      <td>Geometry</td>
-      <td>
-        <div></div>
+      <td><div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b2ef2e2603553c5690/download?contentDisposition=inline" height="auto" width="36" alt="Geometry">Geometry</div>
       </td>
       <td>
-        <div></div>
+      <div style="font-size: 24px;">
+      <i class="fa fa-wrench"></i>
+
+      </div>
       </td>
       <td>
-        <div>
-          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b2ef2e2603553c5690/download?contentDisposition=inline" height="auto" width="36" alt="Geometry">
-          <a href="{{ site.baseurl }}{% link model/Geometry/Geometry.md %}">Files for generation</a>
+      <div style="font-size: 24px;">
+      <i class="fa fa-wrench"></i>
+      </div>
+      </td>
+      <td>
+        <div style="font-size: 24px;">
+          <a href="{{ site.baseurl }}{% link model/Geometry/Geometry.md %}"><i class="fab fa-github"></i></a>
         </div>
       </td>
     </tr>
@@ -239,17 +283,19 @@ The overall model building process can be described as a pipeline going from exp
     </tr>
 
     <tr>
-      <td>Liver</td>
+    <td><div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbccd9c1b2cfe0661e561a/download?contentDisposition=inline" height="auto" width="36" alt="Liver">Liver</div>
+    </td>
       <td>
-        <div></div>
+
+      <div style="font-size: 24px;">
+      <i class="fa fa-wrench"></i>
+      <td>
+      <div style="font-size: 24px;">
+      <i class="fa fa-wrench"></i></div>
       </td>
       <td>
-        <div></div>
-      </td>
-      <td>
-        <div>
-          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbccd9c1b2cfe0661e561a/download?contentDisposition=inline" height="auto" width="36" alt="Liver">
-          <a href="{{ site.baseurl }}{% link model/liver/liver_mathematical.md %}">Mathematical model files</a>
+      <div style="font-size: 24px;">
+      <i class="fa fa-wrench"></i>
         </div>
       </td>
     </tr>

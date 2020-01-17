@@ -1,10 +1,10 @@
 ---
+title: Nutritional Lung Immunity
+subtitle: A description of experiments related to the A. fumigatus agent.
 layout: page
-title: A description of mathematical models associated with A. fumigatus
 show_sidebar: false
+menubar: example_menu
+tabs: afumigatus_tabs
+toc: true
 ---
-
-
-<figure>
-    <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce335c1b2cfe0661e562c/download?contentDisposition=inline" width="200" height="150"/>
-</figure>
+<i class="fa fa-gear fa-spin fa-2x" style="color: firebrick"></i> Nothing yet! Check back soon

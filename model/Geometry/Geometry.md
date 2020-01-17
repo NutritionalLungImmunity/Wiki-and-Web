@@ -1,9 +1,10 @@
 ---
+title: Nutritional Lung Immunity
+subtitle: Data associated to the generation of the geometry.
 layout: page
-title: Data associated to the geometry of alveoli
 show_sidebar: false
+menubar: example_menu
+tabs: geometry_tabs
+toc: true
 ---
-
-<figure>
-    <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b2ef2e2603553c5690/download?contentDisposition=inline" width="200" height="150"/>
-</figure>
+<i class="fa fa-gear fa-spin fa-2x" style="color: firebrick"></i> Nothing yet! Check back soon

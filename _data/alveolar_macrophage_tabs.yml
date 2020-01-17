@@ -1,0 +1,16 @@
+alignment: is-left
+style: is-boxed
+size: is-small
+items:
+  - name: Model Building and Information management
+    link: /model/
+    icon: fa-mortar-pestle
+  - name: Experiments
+    link: /model/alveolarmacrophage/alveolar_macrophage_experimental
+    icon: fa-microscope
+  - name: Bioinformatics and data analysis
+    link: /model/alveolarmacrophage/alveolar_macrophage_bioinformatics
+    icon: fa-dna
+  - name: Mathematical models
+    link: /model/alveolarmacrophage/alveolar_macrophage_mathematical
+    icon: fa-square-root-alt
