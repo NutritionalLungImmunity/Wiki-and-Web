@@ -18,6 +18,9 @@ plugins:
   - kramdown
   - rouge
   - github-pages
+  - jekyll-scholar
+
+gems: ['jekyll/scholar']
 
 exclude:
   - Gemfile
@@ -49,3 +52,13 @@ markdown: kramdown
 highlighter: rouge
 
 footer_menu: example_footer_menu
+
+
+scholar:
+  sort_by: year
+  order: descending
+  bibliography_list_tag: ul
+
+  source: _bibliography
+  repository: pdf
+  bibliography: references

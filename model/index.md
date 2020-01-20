@@ -288,7 +288,8 @@ The overall model building process can be described as a pipeline going from exp
       <td>
 
       <div style="font-size: 24px;">
-      <i class="fa fa-wrench"></i>
+      <i class="fa fa-wrench"></i></div>
+      </td>
       <td>
       <div style="font-size: 24px;">
       <i class="fa fa-wrench"></i></div>
@@ -303,6 +304,18 @@ The overall model building process can be described as a pipeline going from exp
 </table>
 
 ## Bridging the scales
+
+
+## Bibliography
+
+### Overview of innate immunity to invasive pulmonary aspergillosis
+{% bibliography --query @*[keywords= generalimmunity] %}
+
+
+
+
+
+
 
 ####  Acknowledgements of figures.
 
