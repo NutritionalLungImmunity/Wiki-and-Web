@@ -309,7 +309,6 @@ The overall model building process can be described as a pipeline going from exp
 ## Bibliography
 
 ### Overview of innate immunity to invasive pulmonary aspergillosis
-<!--{% bibliography --query @*[keywords= generalimmunity] %}-->
 
 __ Add bibliography__
 
