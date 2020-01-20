@@ -4,6 +4,7 @@ title: Model Building & Information Management
 subtitle: A description of the model, the workflow of model building, and associated data.
 show_sidebar: false
 toc: true
+bibliography: references.bib
 ---
 
 ## An overview of invasive pulmonary aspergillosis
@@ -309,8 +310,8 @@ The overall model building process can be described as a pipeline going from exp
 ## Bibliography
 
 ### Overview of innate immunity to invasive pulmonary aspergillosis
-
-__ Add bibliography__
+{% bibliography %}
+[@parkinnateimmunityaspergillus2009]
 
 
 
