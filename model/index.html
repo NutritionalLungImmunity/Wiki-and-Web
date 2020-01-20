@@ -1,0 +1,468 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Model Building & Information Management - Nutritional Lung Immunity</title>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.ico" 
+    />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Model Building &amp; Information Management | Nutritional Lung Immunity</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Model Building &amp; Information Management" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A multiscale computational model of the innate immune response to the opportunistic fungus Aspergillus fumigatus." />
+<meta property="og:description" content="A multiscale computational model of the innate immune response to the opportunistic fungus Aspergillus fumigatus." />
+<link rel="canonical" href="http://localhost:4000/model/" />
+<meta property="og:url" content="http://localhost:4000/model/" />
+<meta property="og:site_name" content="Nutritional Lung Immunity" />
+<script type="application/ld+json">
+{"headline":"Model Building &amp; Information Management","url":"http://localhost:4000/model/","description":"A multiscale computational model of the innate immune response to the opportunistic fungus Aspergillus fumigatus.","@type":"WebPage","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts -->
+</head>
+
+  <body>
+    <nav class="navbar">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Nutritional Lung Immunity
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-end">
+                <a href="/" class="navbar-item ">Home</a>
+                
+                
+                    
+                    <a href="/people/" class="navbar-item ">Team Members</a>
+                    
+                
+                    
+                    <a href="/funding/" class="navbar-item ">Funding</a>
+                    
+                
+                    
+                    <a href="/model/" class="navbar-item is-active">Model Building</a>
+                    
+                
+                    
+                    <a href="/design/" class="navbar-item ">Software Design</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  has-text-centered is-bold is-primary" >
+    <div class="hero-body">
+        <div class="container">
+            <p class="title is-2">Model Building & Information Management</p>
+            <p class="subtitle is-3">A description of the model, the workflow of model building, and associated data.</p>
+            
+        </div>
+    </div>
+</section>
+
+    
+    
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column is-12">
+                    
+
+                    
+
+                    
+    
+    
+
+<div class="contents">
+    <div class="menu">
+        <p class="menu-label">Contents</p>
+        <ul class="menu-list">
+  <li><a href="#an-overview-of-invasive-pulmonary-aspergillosis">An overview of invasive pulmonary aspergillosis</a></li>
+  <li><a href="#focusing-on-nutritional-immunity">Focusing on nutritional immunity</a></li>
+  <li><a href="#our-approach">Our approach</a>
+    <ul>
+      <li><a href="#multiscale-modeling">Multiscale modeling</a></li>
+      <li><a href="#agent-based-modeling">Agent-based modeling</a></li>
+    </ul>
+  </li>
+  <li><a href="#information-management">Information Management</a></li>
+  <li><a href="#information-consumers-example-use-cases">Information Consumers Example Use Cases</a></li>
+  <li><a href="#data-associated-with-the-model-building-effort">Data associated with the model building effort</a></li>
+  <li><a href="#bridging-the-scales">Bridging the scales</a></li>
+  <li><a href="#bibliography">Bibliography</a>
+    <ul>
+      <li><a href="#overview-of-innate-immunity-to-invasive-pulmonary-aspergillosis">Overview of innate immunity to invasive pulmonary aspergillosis</a></li>
+    </ul>
+  </li>
+</ul>
+    </div>
+</div>
+
+
+<div class="content">
+    <h2 id="an-overview-of-invasive-pulmonary-aspergillosis">An overview of invasive pulmonary aspergillosis</h2>
+<figure class="center">
+    <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce32bc1b2cfe0661e5629/download?contentDisposition=inline" width="700" height="500" />
+</figure>
+<p>The average human inhales hundreds of spores of the <em>A. fumigatus</em> fungus on a daily basis. Despite of this, the vast majority of immunocompetent patients are able to clear the fungus without any seeming effects. A small number of spores are capable of reaching the alveolar sac, where resident macrophages and epithelial cells quickly mount an immune response recruiting various other cells from the circulation such as dendritic cells (DCs), monocyte derived macrophages, and neutrophils. A weakened immune system (e.g. neutropenia) presents a window of opportunity for the fungus to start germinating and breach the epithelial layer, getting into the circulation and causing a systemic infection. Thus, the immune system must act quickly and efficiently to clear the fungus.</p>
+
+<h2 id="focusing-on-nutritional-immunity">Focusing on nutritional immunity</h2>
+<p>Although the response of the innate immune system to <em>A. fumigatus</em> is multifaceted, the sequestration of iron (in turn starving the fungus from its needed iron) by the host’s immune cells is a crucial response to reduce fungal burden. The <em>A. fumigatus</em> mould is equipped with a sideorophore system that attempts to scavenge iron from its environment. The host immune system is equipped with various mechanisms of iron retention and scavenging. We thus focus on this <strong>battle over iron</strong> that occurs in the alveolar space between the host and the fungus.</p>
+
+<h2 id="our-approach">Our approach</h2>
+<h3 id="multiscale-modeling">Multiscale modeling</h3>
+<p>The progression of <em>invasive pulmonary aspergillosis</em> is dependent on processes that occur at various spatiotemporal scales. For example, after the spore is inhaled into the alveolar space (tissue scale), receptors on immune cells detect the pathogen and initiate intracellular signaling processes (intracelullar scales) that result in the translation of various cytokines and chemokines. Some of these cytokines then get into the circulation and recruit other immune cells to the site of infection. For example, the cytokine interleukin-6 signals the liver (whole-body scale) to produce the hormone hepcidin which works to reduce iron export from host cells, arresting iron from pathogens. These biophysical processes take effect in ranges from milliseconds to hours. As such, the area of multiscale modeling is becoming increasingly popular for the modeling of diseases that affect multiple scales. <a href="https://en.wikipedia.org/wiki/Multiscale_modeling">Multiscale modeling</a> seeks to model system behavior by modeling the events occurring at various scales and bridging them appropiately.</p>
+
+<h3 id="agent-based-modeling">Agent-based modeling</h3>
+
+<p>We are building a 3D agent-based model of the innate immune response to <em>invasive pulmonary aspergillosis</em> with a focus on the “battle over iron” that occurs in the alveolar space between the host and the fungus. <a href="https://en.wikipedia.org/wiki/Agent-based_model">Agent-based modeling</a> aims to model how autonomous individuals interact with each other and their computational environment. For us, the individual agents are:</p>
+
+<ol>
+  <li>Alveolar macrophages.</li>
+  <li>Monocyte derived macrophages.</li>
+  <li>Monocyte derived dendritic cells (DCs).</li>
+  <li>Neutrophils.</li>
+  <li>Epithelial cells.</li>
+  <li><em>A. fumigatus</em></li>
+  <li>Liver cells</li>
+</ol>
+
+<p>Agents behave according to a set of rules that are derived from literature and <em>de novo</em> experiments. For example, the monocyte derived macrophages respond to the sensing of <em>A. fumigatus</em> and respond accordingly to the output of an intracellular <a href="https://en.wikipedia.org/wiki/Boolean_network">Generalized Boolean Network</a> (GBN). The GBN is built from a combination of literature results and analysis of a transcriptomics dataset generated as part of this project.</p>
+
+<h4 id="calibrating-the-model-with-experimental-data">Calibrating the model with experimental data</h4>
+
+<p>In order to build the 3D agent based model, we have performed several <em>in vivo</em> and <em>in vitro</em> experiments.</p>
+
+<p>For example, we co-cultured monocyte derived macrophages with <em>A. fumigatus</em> in a time-series and extracted mRNA for RNA sequencing. We used the transcriptomic data for the calibration of the intracellular model of macrophages. We also performed other protein-level assays such as ELISA and blot assays to calibrate parameters related to extracellular behavior. For the purpose of transparency, all experimental data that was generated with the goal of calibrating the 3D model can be found on this website.</p>
+
+<figure>
+<img src="https://data.nutritionallungimmunity.org/api/v1/file/5e0f99d4c1b2cfe0661e564d/download?contentDisposition=inline" width="400" height="250" />
+<figcaption>A summary of our experimental pipeline for monocyte-derived macrophages.</figcaption>
+</figure>
+
+<h4 id="how-we-build-features-of-the-model">How we build features of the model</h4>
+
+<p>We provide an example from our own project to describe how the research process proceeds within our interdisciplinary research group.</p>
+
+<p><strong>Example Goal:</strong> Implement a model of the iron-handling behavior of an immune cell in response to <em>A. fumigatus</em></p>
+
+<p>To answer this question, the following steps could be taken:</p>
+<ol>
+  <li>An experimentalist might perform a co-cultured experiment of an immune cell type with <em>A. fumigatus</em>.</li>
+  <li>Various experiments including transcriptomics and ELISA are used to measure transcriptional and protein-level changes.</li>
+  <li>After sequencing, the data is preprocessed and analyzed by a computational biologist.</li>
+  <li>Such analysis (such as differential expression analysis, pathway analysis, etc.),together with the protein-level data, is then used to enrich a preliminary intracellular mathematical model built from literature knowledge.</li>
+  <li>The implementation of this individual-cell model is then incorporated into the tissue-level 3D model.</li>
+</ol>
+
+<p>From this example alone, we see the various data and artifacts that were required and/or generated:</p>
+<ol>
+  <li>Experimental notebooks describing the protocol of the experiment.</li>
+  <li>Raw data (e.g. RNA seq fastq files).</li>
+  <li>Computational scripts analyzing the generated data.</li>
+  <li>Versions of different software dependencies used in the analysis.</li>
+  <li>Literature results.</li>
+  <li>Implementation of mathematical model.</li>
+</ol>
+
+<h2 id="information-management">Information Management</h2>
+
+<p>This project is highly interdisciplinary and complex, with many digital artifacts and data to track, so we’ve built an information management system in order to track and store all of the pieces. That information management system is rooted in this website, which then provides links out to other resources appropriate for storing the artifacts, e.g. GitHub for code repositories and Girder for digital assets.</p>
+
+<h2 id="information-consumers-example-use-cases">Information Consumers Example Use Cases</h2>
+
+<p>The diversity of scientists that is needed in the building of the multiscale mathematical model is also reflected by the diversity of consumers of the multiscale mathematical model. We spell out 3 use cases that we have in mind to support with our Information Management system.</p>
+
+<ol>
+  <li>
+    <p>Bench scientist: We expect that most of our users would be scientists that enter the project by reading a publication or hearing a presentation related to the multiscale mathematical model. Such user might be interested in running simulations, in which case we would refer them to the web-based tool we are developing for running the model without any installation or looking through the low-level details. Alternatively, the user might be interested in an experimental dataset that was used to generate the rules of an individual cell in the overall model implementation. Such an user would then navigate to this <a href="/model/"> section </a> which provides references to all the data generated from experiments as well as the accompanying experimental notebooks.</p>
+  </li>
+  <li>
+    <p>Scientists hoping to expand/adapt our modeling platform: Our goal is to build a computational infrastructure that can be used to model how the immune system responds to <em>A. fumigatus</em>. A user might be interested in modifying or expand our current multiscale model and running simulations to see how their adaption differs from ours and/or contribute their independent model of a cell type we have not implemented as of yet. For that user, it might be of interest to read the implementation details of the overall 3D computational model, as well as a guide to the API on how to extend the model. We envision that such an user would be most interested in this <a href="/design/"> section </a>.</p>
+  </li>
+  <li>
+    <p>Internal lab members: Long term projects in computational projects in academia are challenged by a high turnover of trainees that come into the project. Moreover, in the building of multiscale modeling, team members might be working on individual components in parallel. Our hope is to provide a central repository where a new lab member can find all of the pieces that have been used in the process of the project and get them up to speed. For example, a new member might be in charge of preprocessing data of a cell type not previously analyzed. For the sake of consistency and efficiency, the new lab member can then refer to the bioinformatics column in the table provided in this <a href="/model/"> section </a> where they can find scripts utilized for the analysis of previously generated data.</p>
+  </li>
+</ol>
+
+<h2 id="data-associated-with-the-model-building-effort">Data associated with the model building effort</h2>
+
+<p>The overall model building process can be described as a pipeline going from experimental work to computational analysis of the experimental data, to mathematical modeling, to the implementation and incorporation of a version of the mathematical model into the 3D agent-based model. For example, monocyte derived macrophages, which are known to play a crucial role in iron-handling during infection, are included as agents in the 3D agent-based model. To derive the rules of a monocyte derived macrophage, we built a generalized boolean network (GBN) model from a combination of literature and experiments. All the experimental data that was used to derive rules in the GBN can be found in the experimental section in the table below.</p>
+
+<table class="models-table header-column" style="width:100%">
+  <thead>
+    <tr>
+      <th class="has-text-centered"></th>
+      <th class="has-text-centered">Experimental data</th>
+      <th class="has-text-centered">Bioinformatics</th>
+      <th class="has-text-centered">Mathematical models</th>
+    </tr>
+  </thead>
+  <tbody>
+
+    <!-- INTRACELLULAR SCALE -->
+    <tr>
+      <th class="has-text-centered"></th>
+      <th class="has-text-centered" colspan="3"> Intracellular Scale</th>
+    </tr>
+
+    <tr>
+      <td>
+      <div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Macrophages" />Monocyte derived macrophages</div>
+      </td>
+      <td>
+        <div style="font-size: 24px;">
+        <a href="/model/mdmacrophage/mdmacrophage_experimental/">
+          <i class="fa fa-dna"></i><i class="fa fa-clipboard-check"></i>
+             </a>
+        </div>
+      </td>
+      <td>
+
+          <div style="font-size: 24px;">
+          <a href="/model/mdmacrophage/mdmacrophage_bioinformatics/">
+          <i class="fa fa-dna"></i><i class="fab fa-github"></i>
+
+          </a>
+          </div>
+      </td>
+      <td>
+        <div style="font-size: 24px;">
+          <a href="/model/mdmacrophage/mdmacrophage_mathematical/">
+          <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td>
+      <div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Dendritic Cells" />Monocyte Derived Dendritic Cells</div></td>
+      <td>
+        <div style="font-size: 24px;">
+          <a href="/model/mddc/mddc_experimental/">
+          <i class="fa fa-dna"></i><i class="fa fa-clipboard-check"></i>
+
+
+          </a>
+        </div>
+      </td>
+      <td>
+        <div style="font-size: 24px;">
+
+          <a href="/model/mddc/mddc_bioinformatics/">
+          <i class="fa fa-dna"></i><i class="fab fa-github"></i>
+
+          </a>
+        </div>
+      </td>
+      <td>
+        <div style="font-size: 24px;">
+          <a href="/model/mddc/mddc_mathematical/">
+
+          <i class="fa fa-wrench"></i>
+
+          </a>
+
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce335c1b2cfe0661e562c/download?contentDisposition=inline" height="auto" width="36" alt="Aspergillus fumigatus" /><em>Aspergillus fumigatus</em></div></td>
+      <td>
+        <div style="font-size: 24px;">
+        <i class="fa fa-wrench"></i>
+
+        </div>
+      </td>
+      <td>
+        <div style="font-size: 24px;">
+        <i class="fa fa-wrench"></i>
+
+        </div>
+      </td>
+      <td>
+        <div style="font-size: 24px;">
+        <i class="fa fa-wrench"></i>
+        </div>
+      </td>
+    </tr>
+
+    <tr>
+      <td><div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdfeac1b2cfe0661e5626/download?contentDisposition=inline" height="auto" width="36" alt="Alveolar epithelial cells" /><em>Alveolar epithelial cells</em></div></td>      
+      <td>
+              <div style="font-size: 24px;">
+              <i class="fa fa-wrench"></i>
+
+              </div>
+            </td>
+            <td>
+              <div style="font-size: 24px;">
+              <i class="fa fa-wrench"></i>
+
+              </div>
+            </td>
+            <td>
+              <div style="font-size: 24px;">
+              <i class="fa fa-wrench"></i>
+              </div>
+            </td>
+    </tr>
+
+    <tr>
+      <td> <div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdf5ec1b2cfe0661e5623/download?contentDisposition=inline" height="auto" width="36" alt="Alveolar macrophages" /><em>Alveolar macrophages</em></div></td>   
+      <td>
+              <div style="font-size: 24px;">
+              <i class="fa fa-wrench"></i>
+
+              </div>
+            </td>
+            <td>
+              <div style="font-size: 24px;">
+              <i class="fa fa-wrench"></i>
+
+              </div>
+            </td>
+            <td>
+              <div style="font-size: 24px;">
+              <i class="fa fa-wrench"></i>
+              </div>
+            </td>
+    </tr>
+    <tr>
+    <td> <div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbd8edc1b2cfe0661e561d/download?contentDisposition=inline" height="auto" width="36" alt="Neutrophils" /><em>Neutrophil</em></div></td>   
+    <td>
+            <div style="font-size: 24px;">
+            <i class="fa fa-wrench"></i>
+
+            </div>
+          </td>
+          <td>
+            <div style="font-size: 24px;">
+            <i class="fa fa-wrench"></i>
+
+            </div>
+          </td>
+          <td>
+            <div style="font-size: 24px;">
+            <i class="fa fa-wrench"></i>
+            </div>
+          </td>
+
+    </tr>
+
+    <!-- TISSUE SCALE -->
+    <tr>
+      <th class="has-text-centered"></th>
+      <th class="has-text-centered" colspan="3"> Tissue Scale</th>
+    </tr>
+
+    <tr>
+      <td><div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b2ef2e2603553c5690/download?contentDisposition=inline" height="auto" width="36" alt="Geometry" />Geometry</div>
+      </td>
+      <td>
+      <div style="font-size: 24px;">
+      <i class="fa fa-wrench"></i>
+
+      </div>
+      </td>
+      <td>
+      <div style="font-size: 24px;">
+      <i class="fa fa-wrench"></i>
+      </div>
+      </td>
+      <td>
+        <div style="font-size: 24px;">
+          <a href="/model/Geometry/Geometry/"><i class="fab fa-github"></i></a>
+        </div>
+      </td>
+    </tr>
+
+    <!-- WHOLE-BODY SCALE -->
+    <tr>
+      <th class="has-text-centered"></th>
+      <th class="has-text-centered" colspan="3"> Whole-body Scale</th>
+    </tr>
+
+    <tr>
+    <td><div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbccd9c1b2cfe0661e561a/download?contentDisposition=inline" height="auto" width="36" alt="Liver" />Liver</div>
+    </td>
+      <td>
+
+      <div style="font-size: 24px;">
+      <i class="fa fa-wrench"></i></div>
+      </td>
+      <td>
+      <div style="font-size: 24px;">
+      <i class="fa fa-wrench"></i></div>
+      </td>
+      <td>
+      <div style="font-size: 24px;">
+      <i class="fa fa-wrench"></i>
+        </div>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="bridging-the-scales">Bridging the scales</h2>
+
+<h2 id="bibliography">Bibliography</h2>
+
+<h3 id="overview-of-innate-immunity-to-invasive-pulmonary-aspergillosis">Overview of innate immunity to invasive pulmonary aspergillosis</h3>
+<ul class="bibliography"><li><span id="parkinnateimmunityaspergillus2009">Park, S. J., &amp; Mehrad, B. (2009). Innate Immunity to Aspergillus Species. <i>Clinical Microbiology Reviews</i>, <i>22</i>(4), 535–551. https://doi.org/10.1128/CMR.00014-09</span></li>
+<li><span id="tokarskiagentbasedmodelingapproach2012">Tokarski, C., Hummert, S., Mech, F., Figge, M. T., Germerodt, S., Schroeter, A., &amp; Schuster, S. (2012). Agent-Based Modeling Approach of Immune Defense Against
+		  Spores of Opportunistic Human Pathogenic Fungi. <i>Frontiers in Microbiology</i>, <i>3</i>. https://doi.org/10.3389/fmicb.2012.00129</span></li></ul>
+<p>[@parkinnateimmunityaspergillus2009]</p>
+
+<h4 id="acknowledgements-of-figures">Acknowledgements of figures.</h4>
+
+<p>Many of the individual figures were generated by the scientific illustration team at <a href="https://www.jax.org">The Jackson Laboratory</a>.</p>
+
+</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+  <div class="container">
+
+      
+      <div class="columns is-multiline">
+          
+      </div>
+      
+
+      <div class="content is-small has-text-centered">
+          <p class="">This page was generated by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> and is maintained by the NutritionalLungImmunityGroup.</p>
+      </div>
+  </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts -->
+</body>
+</html>

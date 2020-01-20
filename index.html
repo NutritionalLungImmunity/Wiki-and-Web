@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Multiscale model of nutritional immunity in invasive pulmonary aspergillosis - Nutritional Lung Immunity</title>
+    <link rel="stylesheet" href="/assets/css/app.css">
+    <link rel="shortcut icon" type="image/png"
+           href="/favicon.ico" 
+    />
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Multiscale model of nutritional immunity in invasive pulmonary aspergillosis | Nutritional Lung Immunity</title>
+<meta name="generator" content="Jekyll v3.8.5" />
+<meta property="og:title" content="Multiscale model of nutritional immunity in invasive pulmonary aspergillosis" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A multiscale computational model of the innate immune response to the opportunistic fungus Aspergillus fumigatus." />
+<meta property="og:description" content="A multiscale computational model of the innate immune response to the opportunistic fungus Aspergillus fumigatus." />
+<link rel="canonical" href="http://localhost:4000/" />
+<meta property="og:url" content="http://localhost:4000/" />
+<meta property="og:site_name" content="Nutritional Lung Immunity" />
+<script type="application/ld+json">
+{"headline":"Multiscale model of nutritional immunity in invasive pulmonary aspergillosis","url":"http://localhost:4000/","name":"Nutritional Lung Immunity","description":"A multiscale computational model of the innate immune response to the opportunistic fungus Aspergillus fumigatus.","@type":"WebSite","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- head scripts -->
+</head>
+
+  <body>
+    <nav class="navbar">
+    <div class="container">
+        <div class="navbar-brand">
+            <a href="/" class="navbar-item">
+                Nutritional Lung Immunity
+            </a>
+            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navMenu">
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+                <span aria-hidden="true"></span>
+            </a>
+        </div>
+        <div class="navbar-menu" id="navMenu">
+            <div class="navbar-end">
+                <a href="/" class="navbar-item is-active">Home</a>
+                
+                
+                    
+                    <a href="/people/" class="navbar-item ">Team Members</a>
+                    
+                
+                    
+                    <a href="/funding/" class="navbar-item ">Funding</a>
+                    
+                
+                    
+                    <a href="/model/" class="navbar-item ">Model Building</a>
+                    
+                
+                    
+                    <a href="/design/" class="navbar-item ">Software Design</a>
+                    
+                
+                
+            </div>
+        </div>
+    </div>
+</nav>
+
+    
+        <section class="hero  is-medium  has-text-centered is-bold is-primary" >
+    <div class="hero-body">
+        <div class="container">
+            <p class="title is-2">Multiscale model of nutritional immunity in invasive pulmonary aspergillosis</p>
+            <p class="subtitle is-3">A multiscale computational model of the innate immune response to the opportunistic fungus Aspergillus fumigatus.</p>
+            
+        </div>
+    </div>
+</section>
+
+    
+    
+
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column is-12">
+                    
+
+                    
+
+                    
+<div class="content">
+    <h1 id="multiscale-model-of-nutritional-immunity-in-invasive-pulmonary-aspergillosis">Multiscale model of nutritional immunity in invasive pulmonary aspergillosis</h1>
+<p>The purpose of the work is to develop a multiscale computational model to simulate the invasion of the human lungs by spores of the opportunistic fungus <em>Aspergillus fumigatus</em>. In particular, we explore the role of <strong>nutritional immunity</strong> in clearing  infection, with a focus on iron. This project is currently funded by The National Institutes of Health and The National Science Foundation of the United States of America (see <a href="/funding/"> funding section </a>). The team includes members from <a href="https://health.uconn.edu/laubenbacher/">The Center for Quantitative Medicine at UConn Health</a>, <a href="https://www.jax.org/about-us/locations/farmington">The Jackson Laboratory for Genomic Medicine</a>, <a href="https://ufhealth.org/">UF Health</a>, and <a href="https://www.kitware.com/">Kitware</a>.</p>
+
+<p>Invasive pulmonary aspergillosis (IPA) is initiated by the inhalation of spores that then reach the alveolar space. Recognition of spores by the innate immune system and epithelial cells lead to a immune response recruiting various leukocytes to the site of infection.</p>
+<figure class="center">
+    <img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce32bc1b2cfe0661e5629/download?contentDisposition=inline" width="700" height="500" />
+</figure>
+<p><a name="lungimmunity"></a></p>
+
+<p>We are building a 3D agent-based model of the innate immune response to <em>invasive pulmonary aspergillosis</em> with a focus on the “battle over iron” that occurs in the alveolar space between the host and the fungus. <a href="https://en.wikipedia.org/wiki/Agent-based_model">Agent-based modeling</a> aims to model how autonomous individuals interact with each other and their computational environment. For us, the individual agents are:</p>
+
+<ol>
+  <li>Alveolar macrophages.</li>
+  <li>Monocyte derived macrophages.</li>
+  <li>Monocyte derived dendritic cells (DCs).</li>
+  <li>Neutrophils.</li>
+  <li>Epithelial cells.</li>
+  <li><em>A. fumigatus</em></li>
+</ol>
+
+<p>Agents behave according to a set of rules that are derived from literature and <em>de novo</em> experiments. For example, the monocyte derived macrophages respond to the sensing of <em>A. fumigatus</em> and respond accordingly to the output of an intracellular <a href="https://en.wikipedia.org/wiki/Boolean_network">Generalized Boolean Network</a> (GBN). The GBN is built from a combination of literature results and analysis of a transcriptomics dataset generated as part of this project.</p>
+
+<p>Importantly, we are implementing the model in an innovative modularized framework to make the model extendable and customizable by the community.</p>
+
+<h2 id="transparent-model-building-and-information-management">Transparent model building and information management</h2>
+
+<p>Multiscale mathematical modeling of disease brings together a wide array of scientists with various backgrounds. As a result, a diverse set of data, code, and tools are utilized in the model building effort, all of which needs to be freely available and understandable to enable collaboration and replication. To this end, we have invested in creating a comprehensive information management system to empower various information consumers including bench scientists, modeling and simulation experts, and internal lab members to find the information they need to use and extend our models.</p>
+
+<h3 id="modular-software-design">Modular software design</h3>
+
+<p>The major innovation that the modeling design implements is the separation of multiscale dynamics and components into individual “modules.” The full set of biological, chemical, and physical behaviors remains encoded within the model but the software architecture is such that each module is a unique collection of code packaged with its own computational environment. The goal of such structure is to remove any interdependence between modules so that a modeler interested in extending or modifying the model can do so without changing the parts of the model that are outside the scope of the desired changes.</p>
+
+<h2 id="news">News</h2>
+<ul>
+  <li>Dr. Reinhard Laubenbacher and Ms. Bandita Adhikari present at the <a href="http://www.smb2019.org/">annual meeting of the Society for Mathematical Biology in Montreal</a>.</li>
+  <li>Dr. Reinhard Laubenbacher and Dr. Luis Sordo Vieira developed methods of control of intracellular networks using computational algebra. See the <a href="https://www.biorxiv.org/content/10.1101/682989v1">BiorXiv preprint</a>!
+    <h2 id="team-leads">Team Leads</h2>
+  </li>
+</ul>
+<figure>
+    <a href="https://facultydirectory.uchc.edu/profile?profileId=Laubenbacher-Reinhard">
+    <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5696/download?contentDisposition=inline" alt="missing" width="120" height="160" />
+
+    </a>
+    <figcaption>Dr. Reinhard Laubenbacher<br /> UConn Health<br /> The Jackson Laboratory</figcaption>
+</figure>
+<figure>
+    <a href="https://pulmonary.medicine.ufl.edu/about-us/faculty/borna-mehrad-md/">
+
+
+    <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b2ef2e2603553c5693/download?contentDisposition=inline" alt="missing" width="120" height="180" />
+
+    </a>
+
+<figcaption>Dr. Borna Mehrad<br /> UF Health</figcaption>
+</figure>
+<figure>
+    <a href="https://www.kitware.com/will-schroeder/">
+    <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5699/download?contentDisposition=inline" alt="missing" width="120" height="120" />
+
+    </a>
+    <figcaption>Dr. William Schroeder<br /> Kitware</figcaption>
+</figure>
+
+<h2 id="funding">Funding</h2>
+<ul>
+  <li><a href="https://projectreporter.nih.gov/project_info_description.cfm?aid=9567990">National Instute of Biomedical Imaging and Bioengineering U01EB024501</a>, Modular design of multiscale models, with an application to the innate immune response to fungal respiratory pathogens.</li>
+  <li><a href="https://projectreporter.nih.gov/project_info_description.cfm?projectnumber=1R01AI135128-01">National Institute of Allergy and Infectious Diseases 1R01AI135128</a>, Multi scale modeling of the battle our iron in invasive lung infection.</li>
+  <li><a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1750183&amp;HistoricalAwards=false">National Science Foundation EAGER #1750183</a>, Modular design of multiscale models, with an application to the innate immune response to fungal respiratory pathogens.</li>
+</ul>
+
+<h3 id="contact">Contact</h3>
+<ul>
+  <li><a href="mailto:laubenbacher@uchc.edu">Dr. Reinhard Laubenbacher</a></li>
+  <li><a href="mailto:Millie.Ramos@medicine.ufl.edu">Dr. Borna Mehrad</a></li>
+</ul>
+
+</div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <footer class="footer">
+  <div class="container">
+
+      
+      <div class="columns is-multiline">
+          
+      </div>
+      
+
+      <div class="content is-small has-text-centered">
+          <p class="">This page was generated by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a> and is maintained by the NutritionalLungImmunityGroup.</p>
+      </div>
+  </div>
+</footer>
+
+    
+    <script src="/assets/js/app.js" type="text/javascript"></script><!-- footer scripts -->
+</body>
+</html>
