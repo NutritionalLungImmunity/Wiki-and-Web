@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Multiscale model of nutritional immunity in invasive pulmonary aspergillosis
-subtitle: A multiscale computational model of the innate immune response to the opportunistic fungus Aspergillus fumigatus.
 show_sidebar: false
 ---
 
