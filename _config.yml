@@ -8,18 +8,8 @@ url: "https://nutritionallungimmunity.org/"
 permalink: pretty
 favicon: /favicon.ico
 
-
 plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - kramdown
-  - rouge
-  - github-pages
   - jekyll-scholar
-
-gems: ['jekyll/scholar']
-
 
 exclude:
   - Gemfile
