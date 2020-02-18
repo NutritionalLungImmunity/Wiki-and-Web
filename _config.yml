@@ -1,5 +1,4 @@
-#theme: bulma-clean-theme
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
 #Site Settings
 title: Nutritional Lung Immunity
 tagline: Multiscale modeling of the battle over iron in the lung
@@ -9,18 +8,8 @@ url: "https://nutritionallungimmunity.org/"
 permalink: pretty
 favicon: /favicon.ico
 
-
 plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-seo-tag
-  - kramdown
-  - rouge
-  - github-pages
   - jekyll-scholar
-
-gems: ['jekyll/scholar']
-
 
 exclude:
   - Gemfile
