@@ -1,5 +1,4 @@
-#theme: bulma-clean-theme
-remote_theme: chrisrhymes/bulma-clean-theme
+theme: bulma-clean-theme
 #Site Settings
 title: Nutritional Lung Immunity
 tagline: Multiscale modeling of the battle over iron in the lung
