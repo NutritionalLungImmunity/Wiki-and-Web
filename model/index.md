@@ -11,7 +11,7 @@ bibliography: references.bib
 <figure class="center">
     <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce32bc1b2cfe0661e5629/download?contentDisposition=inline" width="700" height="500"/>
 </figure>
-The average human inhales hundreds of spores of the _A. fumigatus_ fungus on a daily basis. Despite of this, the vast majority of immunocompetent patients are able to clear the fungus without any seeming effects. A small number of spores are capable of reaching the alveolar sac, where resident macrophages and epithelial cells quickly mount an immune response recruiting various other cells from the circulation such as dendritic cells (DCs), monocyte derived macrophages, and neutrophils. A weakened immune system (e.g. neutropenia) presents a window of opportunity for the fungus to start germinating and breach the epithelial layer, getting into the circulation and causing a systemic infection. Thus, the immune system must act quickly and efficiently to clear the fungus.
+The average human inhales hundreds of spores of the _A. fumigatus_ fungus on a daily basis. Despite of this, the vast majority of immunocompetent patients are able to clear the fungus without any seeming effects. A small number of spores are capable of reaching the alveolar sac, where resident macrophages and epithelial cells quickly mount an immune response recruiting various other cells from the circulation such as dendritic cells (DCs), monocyte derived macrophages, and neutrophils. A weakened immune system (e.g. neutropenia) presents a window of opportunity for the fungus to start germinating and breach the epithelial layer, getting into the circulation and causing a systemic infection. Thus, the immune system must act quickly and efficiently to clear the fungus. See e.g. {% cite parkinnateimmunityaspergillus2009 %}.
 
 ## Focusing on nutritional immunity
 Although the response of the innate immune system to _A. fumigatus_ is multifaceted, the sequestration of iron (in turn starving the fungus from its needed iron) by the host's immune cells is a crucial response to reduce fungal burden. The _A. fumigatus_ mould is equipped with a sideorophore system that attempts to scavenge iron from its environment. The host immune system is equipped with various mechanisms of iron retention and scavenging. We thus focus on this __battle over iron__ that occurs in the alveolar space between the host and the fungus.
@@ -309,7 +309,8 @@ The overall model building process can be described as a pipeline going from exp
 
 ## Bibliography
 
-{% bibliography %}
+{% bibliography --cited %}
+
 
 ### Overview of innate immunity to invasive pulmonary aspergillosis
 
