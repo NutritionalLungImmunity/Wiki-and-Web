@@ -50,4 +50,4 @@ scholar:
 
   source: _bibliography
   repository: pdf
-  bibliography: references
+  bibliography: references.bib
