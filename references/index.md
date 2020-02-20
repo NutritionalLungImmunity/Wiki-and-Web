@@ -28,3 +28,19 @@ toc: true
 
 ### Postprocessing tools used in comparison between DCs and Macrophages response to A. fumigatus
 {% bibliography --query @*[keywords ~= bioinformatics_pipeline_macrophages_dcs_postprocessing] %}
+
+
+## Papers about interactions of cells with A. fumigatus
+
+### Epithelial cells
+{% bibliography --query @*[keywords ~= Epithelial_cells_response_to_af] %}
+
+
+### Dendritic cells
+
+{% bibliography --query @*[keywords ~= DC_response_to_AF] %}
+
+
+
+### Macrophages
+{% bibliography --query @*[keywords ~= macrophage_response_to_AF] %}

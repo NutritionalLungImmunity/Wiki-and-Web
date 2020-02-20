@@ -17,3 +17,8 @@ Iron is essential for all living organisms. A characteristic immune response to 
 
 
 The code for the implementation of the intracellular model, as well as a more thorough description can be found [here](https://github.com/NutritionalLungImmunity/NLI_macrophage_iron_regulation).
+
+
+## Bibliography
+
+{% bibliography --query @*[keywords ~= macrophage_response_to_AF] %}
