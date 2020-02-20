@@ -25,8 +25,21 @@ Scripts for preprocessing and analysis of the data for DCs can be found in the f
 
 #### [Preprocessing pipeline Github repository](https://github.com/NutritionalLungImmunity/NLI_response_to_Aspergillus_fumigatus_omics_data_analysis/DCvsM_response_to_AF_preprocessing)
 Contains code for a [Nextflow](https://www.nextflow.io/) pipeline for preprocessing of data and alignment of reads against the GRCh38 reference genome version 96.
+
+#### Postprocessing analysis
+
+
 #### [Differential Expression Github Repository](https://github.com/NutritionalLungImmunity/NLI_response_to_Aspergillus_fumigatus_omics_data_analysis/DCvsM_response_to_AF_analysis)
 Contains R scripts for performing differential expression analysis of DCs exposed to A. fumigatus and control DCs using [DESeq2](https://bioconductor.org/packages/release/bioc/html/DESeq2.html).
 
 #### [Processed Data](https://data.nutritionallungimmunity.org/#collection/5d69826fef2e2603553c5677/folder/5d939bcdef2e2603553c56c7)
 Contains post-processed data such as aligned read counts and quality control after alignment trimming.
+
+
+### References
+
+#### Preprocessing tools
+{% bibliography --query @*[keywords ~= bioinformatics_pipeline_macrophages_dcs_preprocessing] %}
+
+#### Postprocessing tools
+{% bibliography --query @*[keywords ~= bioinformatics_pipeline_macrophages_dcs_postprocessing] %}
