@@ -1,16 +1,18 @@
 ---
 layout: page
 title: References
-show_sidebar: false
+subtitle: Works cited in the project
+show_sidebar: true
 toc: true
 ---
 
 
 ## Review papers
 
-### Reviews about innate immune response to A. fumigatus
-
 {% bibliography --query @*[keywords ~= review_innate_immunity] %}
+{% bibliography --query @*[keywords ~= review_neutrophils] %}
+{% bibliography --query @*[keywords ~= signaling_reviews] %}
+
 
 
 ## Bioinformatic tools
@@ -38,9 +40,20 @@ toc: true
 
 ### Dendritic cells
 
+
+#### Specific to Aspergillus fumigatus
 {% bibliography --query @*[keywords ~= DC_response_to_AF] %}
 
 
 
 ### Macrophages
+
+
+#### Specific to Aspergillus fumigatus
 {% bibliography --query @*[keywords ~= macrophage_response_to_AF] %}
+
+
+### Neutrophils
+
+#### Specific to Aspergillus fumigatus
+{% bibliography --query @*[keywords ~= Neutrophils_response_to_AF] %}
