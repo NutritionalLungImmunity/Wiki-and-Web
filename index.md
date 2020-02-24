@@ -42,13 +42,18 @@ The major innovation that the modeling design implements is the separation of mu
 * Dr. Reinhard Laubenbacher and Ms. Bandita Adhikari present at the [annual meeting of the Society for Mathematical Biology in Montreal](http://www.smb2019.org/).
 * Dr. Reinhard Laubenbacher and Dr. Luis Sordo Vieira developed methods of control of intracellular networks using computational algebra. See the [BiorXiv preprint](https://www.biorxiv.org/content/10.1101/682989v1)!
 ## Team Leads
+
+
 <figure>
     <a href="https://facultydirectory.uchc.edu/profile?profileId=Laubenbacher-Reinhard">
     <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5696/download?contentDisposition=inline" alt='missing' width="120" height="160" />
 
     </a>
     <figcaption>Dr. Reinhard Laubenbacher<br> UConn Health<br> The Jackson Laboratory</figcaption>
+
 </figure>
+
+
 <figure>
     <a href="https://pulmonary.medicine.ufl.edu/about-us/faculty/borna-mehrad-md/">
 
@@ -59,6 +64,7 @@ The major innovation that the modeling design implements is the separation of mu
 
 <figcaption>Dr. Borna Mehrad<br> UF Health</figcaption>
 </figure>
+
 <figure>
     <a href="https://www.kitware.com/will-schroeder/">
     <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5699/download?contentDisposition=inline" alt='missing' width="120" height="120" />
@@ -66,6 +72,8 @@ The major innovation that the modeling design implements is the separation of mu
     </a>
     <figcaption>Dr. William Schroeder<br> Kitware</figcaption>
 </figure>
+
+
 
 
 ## Funding
