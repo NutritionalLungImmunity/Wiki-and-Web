@@ -22,3 +22,4 @@ The code for the implementation of the intracellular model, as well as a more th
 ## Bibliography
 
 {% bibliography --query @*[keywords ~= macrophage_response_to_AF] %}
+{% bibliography --query @*[keywords ~= macrophage_model] %}
