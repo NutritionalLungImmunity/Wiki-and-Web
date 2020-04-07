@@ -16,15 +16,6 @@ toc: true
 ### Description
 Monocyte derived macrophages from six different human donors (M-CSF differentiated) were exposed to _Aspergillus fumigatus_ conidia with cell:conidia ratio=1:1 for 0, 2, 4, 6, 8 hours. Purity of macrophages was confirmed by flow cytometry using surface markers CD14+/CD68+/CD163+.
 
-<a name="dataavailabilitydccocultafmcocultaf">
-### Data Availability
-All data associated with the monocyte derived macrophages lives in the [Dendritic Cell Module collection](https://data.nutritionallungimmunity.org/#collection/5d41dcf7ef2e26236e2bb3ef) in our Girder Instance. In particular, in the Girder Instance, the following can be found.
-
-
-#### [FASTQ files](https://data.nutritionallungimmunity.org/#collection/5d41dcf7ef2e26236e2bb3ef/folder/5d41de08ef2e26236e2bb3f2)
-Contains raw FASTQ files from two different runs on different days. **For analysis, samples that correspond to the same donor were merged together.** Files are named in the standard Illumina convention. The sample name D[donor number][timepoint] identifies the origin of the sample and how long the DCs were cocultured for.
-#### [Experimental Notebooks](https://data.nutritionallungimmunity.org/#collection/5d69826fef2e2603553c5677/folder/5d939b55ef2e2603553c56bd)
-Contains laboratory notebooks of the protocols utilized for differentiating monocytes to dendritic cells, as well as clinical data related to the samples (age, sex, blood type, etc.)
 
 To see how the data was preprocessed, head to the <a href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_bioinformatics.md %}">bioinformatics section for macrophages (Experiment McocultAF)</a>.
 
@@ -37,3 +28,5 @@ To see how the data was preprocessed, head to the <a href="{{ site.baseurl }}{% 
     <area target="_blank" alt="Library preparation protocol" title="Library preparation protocol" href="https://data.nutritionallungimmunity.org/api/v1/file/5e824fbfc1b2cfe0661e5686/download?contentDisposition=inline" coords="387,311,310,269" shape="rect">
     <area target="_blank" alt="FASTQ files for macrophages" title="FASTQ files for macrophages" href="https://data.nutritionallungimmunity.org/#collection/5d41dcf7ef2e26236e2bb3ef/folder/5e7bc17dc1b2cfe0661e5677" coords="435,384,357,402" shape="rect">
 </map>
+
+To see how the data was preprocessed, head to the <a href="{{ site.baseurl }}{% link model/mdmacrophage/mdmacrophage_bioinformatics.md %}">bioinformatics section for macrophages (Experiment McocultAF)</a>.

@@ -2,6 +2,9 @@ alignment: is-left
 style: is-boxed
 size: is-small
 items:
+  - name: Overview of macrophage behavior model building
+    link: /model/mdmacrophage/
+    icon: fa-book-reader
   - name: Model Building and Information management
     link: /model/
     icon: fa-mortar-pestle
