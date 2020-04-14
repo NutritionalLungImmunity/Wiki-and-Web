@@ -2,9 +2,12 @@ alignment: is-left
 style: is-boxed
 size: is-small
 items:
-  - name: Model Building and Information management
-    link: /model/
+  - name: Back to model building and information management
+    link: /model/#datatable
     icon: fa-mortar-pestle
+  - name: Overview of MDDC behavior model building
+    link: /model/mddc/
+    icon: fa-book-reader
   - name: Experiments
     link: /model/mddc/mddc_experimental
     icon: fa-microscope

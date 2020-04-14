@@ -87,6 +87,7 @@ The diversity of scientists that is needed in the building of the multiscale mat
 
 The overall model building process can be described as a pipeline going from experimental work to computational analysis of the experimental data, to mathematical modeling, to the implementation and incorporation of a version of the mathematical model into the 3D agent-based model. For example, monocyte derived macrophages, which are known to play a crucial role in iron-handling during infection, are included as agents in the 3D agent-based model. To derive the rules of a monocyte derived macrophage, we built a generalized boolean network (GBN) model from a combination of literature and experiments. All the experimental data that was used to derive rules in the GBN can be found in the experimental section in the table below.
 
+<a name="datatable">
 <table class="models-table header-column" style="width:100%">
   <thead>
     <tr>
@@ -105,8 +106,8 @@ The overall model building process can be described as a pipeline going from exp
     </tr>
 
     <tr>
-      <td>
-      <div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Macrophages">Monocyte derived macrophages</div>
+      <td><a href ="mdmacrophage/">
+      <div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfce407c1b2cfe0661e562f/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Macrophages">Monocyte derived macrophages</div></a>
       </td>
       <td>
         <div  style="font-size: 24px;">
@@ -303,7 +304,7 @@ The overall model building process can be described as a pipeline going from exp
     </tr>
   </tbody>
 </table>
-
+</a>
 ## Bridging the scales
 
 

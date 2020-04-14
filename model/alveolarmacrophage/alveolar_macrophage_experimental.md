@@ -1,6 +1,6 @@
 ---
 title: Nutritional Lung Immunity
-subtitle: A description of the alveolar macrophage bioinformatics pipelines.
+subtitle: A description of experiments related to alveolar macrophages.
 layout: page
 show_sidebar: false
 menubar: example_menu

@@ -9,10 +9,9 @@ toc: true
 ---
 
 
-<a name="titlemcocultaf">
-## __In vitro__ time-series RNAseq data from monocyte derived macrophages exposed to A. fumigatus conidia (Experiment McocultAF).
 
-<a name="briefdescriptionmcocultaf">
+## __In vitro__ time-series RNAseq data from monocyte derived macrophages exposed to A. fumigatus conidia.
+
 Description: Monocyte derived macrophages from six different human donors (M-CSF differentiated) were exposed to _Aspergillus fumigatus_ conidia with cell:conidia ratio=1:1 for 0, 2, 4, 6, 8 hours. Purity of macrophages was confirmed by flow cytometry using surface markers CD14+/CD68+/CD163+.
 
 ### Preprocessing pipeline
