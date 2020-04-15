@@ -1,6 +1,5 @@
----
 title: Nutritional Lung Immunity
-subtitle: A description of experiments related to respiratory epithelium.
+subtitle: Overview of model building for liver behavior.
 layout: page
 show_sidebar: false
 menubar: example_menu

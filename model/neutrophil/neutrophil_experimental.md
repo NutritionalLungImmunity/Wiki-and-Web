@@ -1,6 +1,6 @@
 ---
 title: Nutritional Lung Immunity
-subtitle: A description of the neutrophil bioinformatics pipelines.
+subtitle: A description of experiments related to neutrophils.
 layout: page
 show_sidebar: false
 menubar: example_menu

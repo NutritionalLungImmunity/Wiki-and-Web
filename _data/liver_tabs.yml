@@ -2,8 +2,8 @@ alignment: is-left
 style: is-boxed
 size: is-small
 items:
-  - name: Model Building and Information management
-    link: /model/
+  - name: Back to model building and information management
+    link: /model/#datatable
     icon: fa-mortar-pestle
   - name: Experiments
     link: /model/liver/liver_experimental

@@ -2,9 +2,7 @@ alignment: is-left
 style: is-boxed
 size: is-small
 items:
-  - name: Model Building and Information management
-    link: /model/
-    icon: fa-mortar-pestle
+
   - name: Experiments
     link: /model/alveolarmacrophage/alveolar_macrophage_experimental
     icon: fa-microscope
@@ -14,3 +12,6 @@ items:
   - name: Mathematical models
     link: /model/alveolarmacrophage/alveolar_macrophage_mathematical
     icon: fa-square-root-alt
+  - name: Back to model building and information management
+    link: /model/#datatable
+    icon: fa-mortar-pestle
