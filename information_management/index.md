@@ -8,9 +8,15 @@ bibliography: references.bib
 ---
 
 
+
 ## Information Management
 
 This project is highly interdisciplinary and complex, with many digital artifacts and data to track, so we've built an information management system in order to track and store all of the pieces. That information management system is rooted in this website, which then provides links out to other resources appropriate for storing the artifacts, e.g. GitHub for code repositories and Girder for digital assets.
+
+<object type="image/svg+xml" data="/media/svgs/whole_alveolus.svg" >
+<!-- fallback image in CSS -->
+<img src="/media/svgs/whole_alveolus.svg" width="186" height="235"/>
+</object>
 
 
 ## Information Consumers Example Use Cases
