@@ -6,6 +6,9 @@
   link: /funding/
 - name: Model Building
   link: /model/
+
+- name: Information management
+  link: /information_management/
 - name: Software Design
   link: /design/
 - name: References
