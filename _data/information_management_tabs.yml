@@ -1,0 +1,13 @@
+alignment: is-left
+style: is-boxed
+size: is-small
+items:
+  - name: Back to model building and information management
+    link: /model/#datatable
+    icon: fa-mortar-pestle
+  - name: Model Building and Information management
+    link: /model/
+    icon: fa-mortar-pestle
+  - name: Generating the geometry
+    link: /model/Geometry/
+    icon: fa-square-root-alt
