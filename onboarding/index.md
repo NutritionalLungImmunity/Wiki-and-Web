@@ -8,7 +8,7 @@ toc: true
 
 ## First steps
 
-1. Go to our [Girder data management](https://data.nutritionallungimmunity.org) collection and register.
+1. Go to our to [Girder data management](https://data.nutritionallungimmunity.org/#?dialog=register)to register for access to our information data management platform.
 1. Request membership in our Nutritional Lung Immunity [Github organization](https://github.com/NutritionalLungImmunity).
 1. Get a [Zotero](https://www.zotero.org) account and send [Luis Sordo Vieira](mailto:luis.sordovieira@medicine.ufl.edu) an email to get access to our Zotero group.
 
