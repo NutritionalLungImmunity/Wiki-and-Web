@@ -54,7 +54,7 @@ This project is mainly funded by the following grants, which we have included li
 
 ### Kitware
 
-*  William Schroeder (PI)
+* William Schroeder (PI)
 * Brian Helba, Staff R&D Engineer
 * Michael Grauer, Technical Leader
 * Jonathan Beezley, Staff R&D Engineer
