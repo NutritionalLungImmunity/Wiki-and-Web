@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Directions for information management aspects of the project.
+title: Managing information
 subtitle: Your efforts will pay off.
 show_sidebar: true
 toc: true
