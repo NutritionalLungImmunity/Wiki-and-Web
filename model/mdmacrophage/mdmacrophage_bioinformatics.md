@@ -8,9 +8,7 @@ tabs: mdmacrophage_tabs
 toc: true
 ---
 
-<object type="image/svg+xml" data="/media/mdmacrophages/bioinformatics.svg">
-<img src="/media/mdmacrophages/bioinformatics.svg"></img>
-</object>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ7A_8RVpvcs5nGXfv8Z1cpbMmXgQNWPf_wV0_xkRU-d5o7QHlyDDgu2BORifCbUmxyz3dqkIJaU7_t/embed?start=false&loop=false&delayms=600000000&slide=3" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## __In vitro__ time-series RNAseq data from monocyte derived macrophages exposed to A. fumigatus conidia.
 

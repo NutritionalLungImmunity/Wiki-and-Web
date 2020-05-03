@@ -8,11 +8,7 @@ tabs: mddc_tabs
 toc: true
 ---
 
-<object type="image/svg+xml" data="/media/svgs/experimental.svg" >
-<!-- fallback image in CSS -->
-<img src="/media/mddcs/experimental.svg" width="186" height="235"/>
-</object>
-
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS-7sukYI9nTrDRvtI2wMX3I7ngEjLtCS-CJgnloUTDalAstCdHhwwNOJqdtf_qRIobCliy-ixDwDBY/embed?start=false&loop=false&delayms=60000&slide=2" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 ## __In vitro__ time-series RNAseq data from monocyte derived dendritic cells exposed to A. fumigatus conidia (Experiment DCcocultAF).

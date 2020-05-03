@@ -47,11 +47,7 @@ For example, we co-cultured monocyte derived macrophages with _A. fumigatus_ in 
 </figure>
 -->
 
-<object type="image/svg+xml" data="/media/mdmacrophage/experimental.svg" >
-<!-- fallback image in CSS -->
-<img src="/media/mdmacrophage/experimental.svg" width="186" height="235"/>
-</object>
-
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQ7A_8RVpvcs5nGXfv8Z1cpbMmXgQNWPf_wV0_xkRU-d5o7QHlyDDgu2BORifCbUmxyz3dqkIJaU7_t/embed?start=false&loop=false&delayms=3000" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 #### How we build features of the model
 
  We provide an example from our own project to describe how the research process proceeds within our interdisciplinary research group.

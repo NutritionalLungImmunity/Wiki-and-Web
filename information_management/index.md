@@ -82,8 +82,8 @@ The overall model building process can be described as a pipeline going from exp
     </tr>
 
     <tr>
-      <td>
-      <div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Dendritic Cells">Monocyte Derived Dendritic Cells</div></td>
+      <td><a href ="/model/mddc/">
+      <div><img src="https://data.nutritionallungimmunity.org/api/v1/file/5dfbdee7c1b2cfe0661e5620/download?contentDisposition=inline" height="auto" width="36" alt="Monocyte Derived Dendritic Cells">Monocyte Derived Dendritic Cells</div></a></td>
       <td>
         <div style="font-size: 24px;">
           <a href="{{ site.baseurl }}{% link model/mddc/mddc_experimental.md %}">

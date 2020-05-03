@@ -29,7 +29,6 @@ To have the new bibliography be included on the website, you can do one of two t
 | Review paper| Reference is a review paper|
 | Invasive Pulmonary Aspergillosis| Paper specific to IPA    |
 | In vitro| Includes _in vitro_ data used to calibrate a model|
-| In vivo| Includes _in vivo_ data used to calibrate a model|
 | Multiscale modeling| Reference related to techniques of multiscale modeling|
 | Preprocessing tools| Related to a tool used in the preprocessing step     |
 | Bioinformatics tool|  Related to a tool used in the bionformatics analysis    |
