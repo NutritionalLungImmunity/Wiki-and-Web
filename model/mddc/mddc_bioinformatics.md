@@ -7,8 +7,7 @@ menubar: example_menu
 tabs: mddc_tabs
 toc: true
 ---
-
-
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vS-7sukYI9nTrDRvtI2wMX3I7ngEjLtCS-CJgnloUTDalAstCdHhwwNOJqdtf_qRIobCliy-ixDwDBY/embed?start=false&loop=false&delayms=60000&slide=3" frameborder="0" width="960" height="569" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ## __In vitro__ time-series RNAseq data from monocyte derived dendritic cells exposed to A. fumigatus conidia (Experiment DCcocultAF).
 Description: Monocyte derived dendritic cells from six different human donors (IL-4/GM-CSF differentiated) were exposed to _Aspergillus fumigatus_ conidia with cell:conidia ratio=1:1 for 0, 2, 4, 6, 8 hours. Purity of dendritic cells was confirmed by flow cytometry using CD14-/Cd1a+/HLA+/CD83+. For more details, go to the <a href="{{ site.baseurl }}{% link model/mddc/mddc_experimental.md %}"> experimental section for monocyte derived DCs and see the section for (Experiment DCcocultAF).
@@ -16,12 +15,6 @@ Description: Monocyte derived dendritic cells from six different human donors (I
 ### Preprocessing pipeline
 The FASTQ files were aligned using a custom [Nextflow](https://www.nextflow.io/) pipeline for preprocessing of data and alignment of reads against the GRCh38 reference genome version 96.  An overview of the pipeline is below. Click on the image to be taken to the Github repository containing the Nextflow pipeline.
 
-
-<figure >
-<a href="https://github.com/NutritionalLungImmunity/NLI_response_to_Aspergillus_fumigatus_omics_data_analysis/tree/master/DCvsM_response_to_AF_preprocessing/star_pipeline">
-    <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5e0e4292c1b2cfe0661e5643/download?contentDisposition=inline" />
-</a>
-</figure>
 
 #### Postprocessing analysis
 
