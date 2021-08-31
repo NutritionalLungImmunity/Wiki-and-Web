@@ -39,48 +39,54 @@ The major innovation that the modeling design implements is the separation of mu
 
 
 ## News
+* (May 18, 2021) Many of our research faculty personnel contributed to a recent publication, [“A Modular Computational Framework for Medical Digital Twins”](https://www.pnas.org/content/118/20/e20242871). This paper presents a modular software design that will help implement precision medicine in the form of medical digital twins which are computational models of disease processes calibrated to individual patients.
+* (Mar 12, 2021) Dr. Reinhard Laubenbacher, co-authored an article, [Using Digital Twins in Viral Infection](https://doi.org/10.1126/science.abf3370), in Science Magazine along with Drs. James P. Sluka, and James A. Glazier.
 * Dr. Reinhard Laubenbacher and Ms. Bandita Adhikari present at the [annual meeting of the Society for Mathematical Biology in Montreal](http://www.smb2019.org/).
 * Dr. Reinhard Laubenbacher and Dr. Luis Sordo Vieira developed methods of control of intracellular networks using computational algebra. See the [BiorXiv preprint](https://www.biorxiv.org/content/10.1101/682989v1)!
-## Team Leads
 
+## Team Leads
 
 <figure>
     <a href="https://facultydirectory.uchc.edu/profile?profileId=Laubenbacher-Reinhard">
     <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5696/download?contentDisposition=inline" alt='missing' width="120" height="160" />
-
     </a>
-    <figcaption>Dr. Reinhard Laubenbacher<br> UConn Health<br> The Jackson Laboratory</figcaption>
-
+    <figcaption>
+        Dr. Reinhard Laubenbacher<br>
+        Laboratory for Systems Medicine<br>
+        UF Health
+    </figcaption>
 </figure>
 
 
 <figure>
     <a href="https://pulmonary.medicine.ufl.edu/about-us/faculty/borna-mehrad-md/">
-
-
     <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b2ef2e2603553c5693/download?contentDisposition=inline" alt='missing' width="120" height="180" />
-
     </a>
-
-<figcaption>Dr. Borna Mehrad<br> UF Health</figcaption>
+    <figcaption>
+        Dr. Borna Mehrad<br>
+        UF Health
+    </figcaption>
 </figure>
 
 <figure>
     <a href="https://www.kitware.com/will-schroeder/">
     <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5699/download?contentDisposition=inline" alt='missing' width="120" height="120" />
-
     </a>
-    <figcaption>Dr. William Schroeder<br> Kitware</figcaption>
+    <figcaption>
+        Dr. William Schroeder<br>
+        Kitware
+    </figcaption>
 </figure>
 
 
 
 
 ## Funding
+
 - [National Instute of Biomedical Imaging and Bioengineering U01EB024501](https://projectreporter.nih.gov/project_info_description.cfm?aid=9567990), Modular design of multiscale models, with an application to the innate immune response to fungal respiratory pathogens.
 - [National Institute of Allergy and Infectious Diseases 1R01AI135128](https://projectreporter.nih.gov/project_info_description.cfm?projectnumber=1R01AI135128-01), Multi scale modeling of the battle our iron in invasive lung infection.
 - [National Science Foundation EAGER #1750183](https://nsf.gov/awardsearch/showAward?AWD_ID=1750183&HistoricalAwards=false), Modular design of multiscale models, with an application to the innate immune response to fungal respiratory pathogens.
 
 ### Contact
-- [Dr. Reinhard Laubenbacher](mailto:laubenbacher@uchc.edu)
+- [Dr. Reinhard Laubenbacher](mailto:Reinhard.Laubenbacher@medicine.ufl.edu)
 - [Dr. Borna Mehrad](mailto:Millie.Ramos@medicine.ufl.edu)

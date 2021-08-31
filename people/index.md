@@ -7,9 +7,11 @@ show_sidebar: false
 
 # Dr. Reinhard Laubenbacher's Laboratory
 
-## Postdoctoral Associates
-* [Luis Sordo Vieira](https://www.jax.org/people/luis-sordo-vieira), The Jackson Laboratory for Genomic Medicine
-* [Henrique De Assis Lopes Ribeiro](https://health.uconn.edu/laubenbacher/research/henrique-de-assis-lopes-ribeiro-phd/), UConn Health
+## Faculty
+* [Luis Sordo Vieira](https://directory.ufhealth.org/sordo-vieira-luis), Laboratory for Systems Medicine, Department of Medicine, University of Florida
+* [Henrique De Assis Lopes Ribeiro](https://directory.ufhealth.org/de-assis-lopes-ribeiro-henrique), Laboratory for Systems Medicine, Department of Medicine, University of Florida
+* [Adam C. Knapp](https://directory.ufhealth.org/knapp-adam), Laboratory for Systems Medicine, Department of Medicine, University of Florida
+<!-- * [Luis L Fonseca](https://directory.ufhealth.org/fonseca-luis), Laboratory for Systems Medicine, Department of Medicine, University of Florida -->
 
 ## Graduate students
 * [Bandita Adhikari](https://health.uconn.edu/laubenbacher/research/bandita-adhikari/), UConn Health
