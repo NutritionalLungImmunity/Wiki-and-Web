@@ -6,7 +6,7 @@ show_sidebar: false
 
 
 # Multiscale model of nutritional immunity in invasive pulmonary aspergillosis
-The purpose of the work is to develop a multiscale computational model to simulate the invasion of the human lungs by spores of the opportunistic fungus _Aspergillus fumigatus_. In particular, we explore the role of **nutritional immunity** in clearing  infection, with a focus on iron. This project is currently funded by The National Institutes of Health and The National Science Foundation of the United States of America (see <a href="{{ site.baseurl }}{% link funding/index.md %}"> funding section </a>). The team includes members from [The Center for Quantitative Medicine at UConn Health](https://health.uconn.edu/laubenbacher/), [The Jackson Laboratory for Genomic Medicine](https://www.jax.org/about-us/locations/farmington), [UF Health](https://ufhealth.org/), and [Kitware](https://www.kitware.com/).
+The purpose of the work is to develop a multiscale computational model to simulate the invasion of the human lungs by spores of the opportunistic fungus _Aspergillus fumigatus_. In particular, we explore the role of **nutritional immunity** in clearing  infection, with a focus on iron. This project is currently funded by The National Institutes of Health and The National Science Foundation of the United States of America (see <a href="{{ site.baseurl }}{% link funding/index.md %}"> funding section </a>). The team includes members from [UF Health](https://ufhealth.org/) and [Kitware](https://www.kitware.com/).
 
 
 Invasive pulmonary aspergillosis (IPA) is initiated by the inhalation of spores that then reach the alveolar space. Recognition of spores by the innate immune system and epithelial cells lead to a immune response recruiting various leukocytes to the site of infection.
@@ -39,10 +39,11 @@ The major innovation that the modeling design implements is the separation of mu
 
 
 ## News
+* (June 8, 2021) Our team submitted a preprint [The Innate Immune Response to Invasive Pulmonary Aspergillosis: A Systems Modeling Approach](https://www.biorxiv.org/content/10.1101/2021.06.08.447590v1) to the bioRxiv.
 * (May 18, 2021) Many of our research faculty personnel contributed to a recent publication, [“A Modular Computational Framework for Medical Digital Twins”](https://www.pnas.org/content/118/20/e20242871). This paper presents a modular software design that will help implement precision medicine in the form of medical digital twins which are computational models of disease processes calibrated to individual patients.
 * (Mar 12, 2021) Dr. Reinhard Laubenbacher, co-authored an article, [Using Digital Twins in Viral Infection](https://doi.org/10.1126/science.abf3370), in Science Magazine along with Drs. James P. Sluka, and James A. Glazier.
-* Dr. Reinhard Laubenbacher and Ms. Bandita Adhikari present at the [annual meeting of the Society for Mathematical Biology in Montreal](http://www.smb2019.org/).
-* Dr. Reinhard Laubenbacher and Dr. Luis Sordo Vieira developed methods of control of intracellular networks using computational algebra. See the [BiorXiv preprint](https://www.biorxiv.org/content/10.1101/682989v1)!
+<!-- * Dr. Reinhard Laubenbacher and Ms. Bandita Adhikari present at the [annual meeting of the Society for Mathematical Biology in Montreal](http://www.smb2019.org/). -->
+<!-- * Dr. Reinhard Laubenbacher and Dr. Luis Sordo Vieira developed methods of control of intracellular networks using computational algebra. See the [BiorXiv preprint](https://www.biorxiv.org/content/10.1101/682989v1)! -->
 
 ## Team Leads
 
@@ -89,4 +90,4 @@ The major innovation that the modeling design implements is the separation of mu
 
 ### Contact
 - [Dr. Reinhard Laubenbacher](mailto:Reinhard.Laubenbacher@medicine.ufl.edu)
-- [Dr. Borna Mehrad](mailto:Millie.Ramos@medicine.ufl.edu)
+- [Dr. Borna Mehrad](mailto:Sara.Mayo@medicine.ufl.edu)

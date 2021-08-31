@@ -251,4 +251,5 @@ The overall model building process can be described as a pipeline going from exp
     </tr>
   </tbody>
 </table>
-## Bridging the scales
+
+<!-- ## Bridging the scales -->
