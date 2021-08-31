@@ -47,40 +47,77 @@ The major innovation that the modeling design implements is the separation of mu
 
 ## Team Leads
 
-<figure>
-    <a href="https://facultydirectory.uchc.edu/profile?profileId=Laubenbacher-Reinhard">
-    <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5696/download?contentDisposition=inline" alt='missing' width="120" height="160" />
-    </a>
-    <figcaption>
-        Dr. Reinhard Laubenbacher<br>
-        Laboratory for Systems Medicine<br>
-        UF Health
-    </figcaption>
-</figure>
+<div class="div-table">
+  <div class="div-table-row">
+    <div class="div-table-col">
+      <figure>
+        <a href="https://facultydirectory.uchc.edu/profile?profileId=Laubenbacher-Reinhard">
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5696/download?contentDisposition=inline"
+               alt='Dr. Reinhard Laubenbacher'
+               width="120"
+               height="160"
+               />
+        </a>
+        <figcaption>
+          Dr. Reinhard Laubenbacher<br>
+          Laboratory for Systems Medicine<br>
+          UF Health
+        </figcaption>
+      </figure>
+    </div>
 
 
-<figure>
-    <a href="https://pulmonary.medicine.ufl.edu/about-us/faculty/borna-mehrad-md/">
-    <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b2ef2e2603553c5693/download?contentDisposition=inline" alt='missing' width="120" height="180" />
-    </a>
-    <figcaption>
-        Dr. Borna Mehrad<br>
-        UF Health
-    </figcaption>
-</figure>
+    <div class="div-table-col">
+      <figure>
+        <a href="https://pulmonary.medicine.ufl.edu/about-us/faculty/borna-mehrad-md/">
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b2ef2e2603553c5693/download?contentDisposition=inline"
+               alt='Dr. Borna Mehrad'
+               width="120"
+               height="180"
+               />
+        </a>
+        <figcaption>
+          Dr. Borna Mehrad<br>
+          UF Health
+        </figcaption>
+      </figure>
+    </div>
 
-<figure>
-    <a href="https://www.kitware.com/will-schroeder/">
-    <img  src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5699/download?contentDisposition=inline" alt='missing' width="120" height="120" />
-    </a>
-    <figcaption>
-        Dr. William Schroeder<br>
-        Kitware
-    </figcaption>
-</figure>
+    <div class="div-table-col">
+      <figure>
+        <a href="https://www.kitware.com/will-schroeder/">
+          <img src="https://data.nutritionallungimmunity.org/api/v1/file/5d7262b3ef2e2603553c5699/download?contentDisposition=inline"
+               alt='Dr. Will Schroeder'
+               width="120"
+               height="120"
+               />
+        </a>
+        <figcaption>
+          Dr. William Schroeder<br>
+          Kitware
+        </figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
 
-
-
+<style type="text/css">
+.div-table {
+  display: table;
+  width: auto;
+  border-spacing: 5px; /* cellspacing: poor IE support for this */
+}
+.div-table-row {
+  display: table-row;
+  width: auto;
+  clear: both;
+}
+.div-table-col {
+  float: left; /* fix for buggy browsers */
+  display: table-column;
+  width: 300px;
+}
+</style>
 
 ## Funding
 
